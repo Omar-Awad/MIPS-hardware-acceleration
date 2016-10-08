@@ -1,0 +1,1739 @@
+--------------------------------------------------------------------------------
+Release 14.7 Trace  (nt64)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+
+E:\xilinx_new\14.7\ISE_DS\ISE\bin\nt64\unwrapped\trce.exe -intstyle ise -v 3 -s
+4 -n 3 -fastpaths -xml ALU.twx ALU.ncd -o ALU.twr ALU.pcf
+
+Design file:              ALU.ncd
+Physical constraint file: ALU.pcf
+Device,package,speed:     xc3s500e,fg320,-4 (PRODUCTION 1.27 2013-10-13)
+Report level:             verbose report
+
+Environment Variable      Effect 
+--------------------      ------ 
+NONE                      No environment variables were set
+--------------------------------------------------------------------------------
+
+INFO:Timing:2698 - No timing constraints found, doing default enumeration.
+INFO:Timing:3412 - To improve timing, see the Timing Closure User Guide (UG612).
+INFO:Timing:2752 - To get complete path coverage, use the unconstrained paths 
+   option. All paths that are not constrained will be reported in the 
+   unconstrained paths section(s) of the report.
+INFO:Timing:3339 - The clock-to-out numbers in this timing report are based on 
+   a 50 Ohm transmission line loading model.  For the details of this model, 
+   and for more information on accounting for different loading conditions, 
+   please see the device datasheet.
+INFO:Timing:3390 - This architecture does not support a default System Jitter 
+   value, please add SYSTEM_JITTER constraint to the UCF to modify the Clock 
+   Uncertainty calculation.
+INFO:Timing:3389 - This architecture does not support 'Discrete Jitter' and 
+   'Phase Error' calculations, these terms will be zero in the Clock 
+   Uncertainty calculation.  Please make appropriate modification to 
+   SYSTEM_JITTER to account for the unsupported Discrete Jitter and Phase 
+   Error.
+
+
+
+Data Sheet report:
+-----------------
+All values displayed in nanoseconds (ns)
+
+Pad to Pad
+----------------+---------------+---------+
+Source Pad      |Destination Pad|  Delay  |
+----------------+---------------+---------+
+ALUOp<0>        |ALU_Out<0>     |    8.912|
+ALUOp<0>        |ALU_Out<1>     |    9.884|
+ALUOp<0>        |ALU_Out<2>     |   10.292|
+ALUOp<0>        |ALU_Out<3>     |   13.244|
+ALUOp<0>        |ALU_Out<4>     |   15.472|
+ALUOp<0>        |ALU_Out<5>     |   16.262|
+ALUOp<0>        |ALU_Out<6>     |   16.563|
+ALUOp<0>        |ALU_Out<7>     |   17.693|
+ALUOp<0>        |ALU_Out<8>     |   19.741|
+ALUOp<0>        |ALU_Out<9>     |   19.795|
+ALUOp<0>        |ALU_Out<10>    |   21.981|
+ALUOp<0>        |ALU_Out<11>    |   22.740|
+ALUOp<0>        |ALU_Out<12>    |   23.127|
+ALUOp<0>        |ALU_Out<13>    |   23.870|
+ALUOp<0>        |ALU_Out<14>    |   25.562|
+ALUOp<0>        |ALU_Out<15>    |   26.401|
+ALUOp<0>        |ALU_Out<16>    |   27.259|
+ALUOp<0>        |ALU_Out<17>    |   29.563|
+ALUOp<0>        |ALU_Out<18>    |   30.022|
+ALUOp<0>        |ALU_Out<19>    |   31.979|
+ALUOp<0>        |ALU_Out<20>    |   31.794|
+ALUOp<0>        |ALU_Out<21>    |   33.058|
+ALUOp<0>        |ALU_Out<22>    |   35.415|
+ALUOp<0>        |ALU_Out<23>    |   36.223|
+ALUOp<0>        |ALU_Out<24>    |   37.128|
+ALUOp<0>        |ALU_Out<25>    |   38.659|
+ALUOp<0>        |ALU_Out<26>    |   38.928|
+ALUOp<0>        |ALU_Out<27>    |   40.188|
+ALUOp<0>        |ALU_Out<28>    |   41.483|
+ALUOp<0>        |ALU_Out<29>    |   42.931|
+ALUOp<0>        |ALU_Out<30>    |   44.163|
+ALUOp<0>        |ALU_Out<31>    |   43.786|
+ALUOp<1>        |ALU_Out<0>     |    9.233|
+ALUOp<1>        |ALU_Out<1>     |    8.480|
+ALUOp<1>        |ALU_Out<2>     |    9.086|
+ALUOp<1>        |ALU_Out<3>     |    9.861|
+ALUOp<1>        |ALU_Out<4>     |   10.436|
+ALUOp<1>        |ALU_Out<5>     |   10.383|
+ALUOp<1>        |ALU_Out<6>     |   10.732|
+ALUOp<1>        |ALU_Out<7>     |    9.855|
+ALUOp<1>        |ALU_Out<8>     |   10.281|
+ALUOp<1>        |ALU_Out<9>     |    9.319|
+ALUOp<1>        |ALU_Out<10>    |    9.905|
+ALUOp<1>        |ALU_Out<11>    |    9.015|
+ALUOp<1>        |ALU_Out<12>    |    9.377|
+ALUOp<1>        |ALU_Out<13>    |    9.770|
+ALUOp<1>        |ALU_Out<14>    |    9.948|
+ALUOp<1>        |ALU_Out<15>    |    9.641|
+ALUOp<1>        |ALU_Out<16>    |    9.311|
+ALUOp<1>        |ALU_Out<17>    |   10.550|
+ALUOp<1>        |ALU_Out<18>    |   10.077|
+ALUOp<1>        |ALU_Out<19>    |   10.559|
+ALUOp<1>        |ALU_Out<20>    |    8.977|
+ALUOp<1>        |ALU_Out<21>    |    8.872|
+ALUOp<1>        |ALU_Out<22>    |    8.935|
+ALUOp<1>        |ALU_Out<23>    |    8.358|
+ALUOp<1>        |ALU_Out<24>    |    8.308|
+ALUOp<1>        |ALU_Out<25>    |    9.057|
+ALUOp<1>        |ALU_Out<26>    |    8.517|
+ALUOp<1>        |ALU_Out<27>    |    8.164|
+ALUOp<1>        |ALU_Out<28>    |    8.016|
+ALUOp<1>        |ALU_Out<29>    |    8.868|
+ALUOp<1>        |ALU_Out<30>    |    9.885|
+ALUOp<1>        |ALU_Out<31>    |    9.028|
+ALU_inSel       |ALU_Out<0>     |   11.716|
+ALU_inSel       |ALU_Out<1>     |   12.894|
+ALU_inSel       |ALU_Out<2>     |   14.361|
+ALU_inSel       |ALU_Out<3>     |   17.313|
+ALU_inSel       |ALU_Out<4>     |   19.541|
+ALU_inSel       |ALU_Out<5>     |   20.331|
+ALU_inSel       |ALU_Out<6>     |   20.632|
+ALU_inSel       |ALU_Out<7>     |   21.762|
+ALU_inSel       |ALU_Out<8>     |   23.810|
+ALU_inSel       |ALU_Out<9>     |   23.864|
+ALU_inSel       |ALU_Out<10>    |   26.050|
+ALU_inSel       |ALU_Out<11>    |   26.809|
+ALU_inSel       |ALU_Out<12>    |   27.196|
+ALU_inSel       |ALU_Out<13>    |   27.939|
+ALU_inSel       |ALU_Out<14>    |   29.631|
+ALU_inSel       |ALU_Out<15>    |   30.470|
+ALU_inSel       |ALU_Out<16>    |   31.328|
+ALU_inSel       |ALU_Out<17>    |   33.632|
+ALU_inSel       |ALU_Out<18>    |   34.091|
+ALU_inSel       |ALU_Out<19>    |   36.048|
+ALU_inSel       |ALU_Out<20>    |   35.863|
+ALU_inSel       |ALU_Out<21>    |   37.127|
+ALU_inSel       |ALU_Out<22>    |   39.484|
+ALU_inSel       |ALU_Out<23>    |   40.292|
+ALU_inSel       |ALU_Out<24>    |   41.197|
+ALU_inSel       |ALU_Out<25>    |   42.728|
+ALU_inSel       |ALU_Out<26>    |   42.997|
+ALU_inSel       |ALU_Out<27>    |   44.257|
+ALU_inSel       |ALU_Out<28>    |   45.552|
+ALU_inSel       |ALU_Out<29>    |   47.000|
+ALU_inSel       |ALU_Out<30>    |   48.232|
+ALU_inSel       |ALU_Out<31>    |   47.855|
+RegIn1<0>       |ALU_Out<0>     |    8.634|
+RegIn1<0>       |ALU_Out<1>     |    8.412|
+RegIn1<0>       |ALU_Out<2>     |    9.553|
+RegIn1<0>       |ALU_Out<3>     |   12.505|
+RegIn1<0>       |ALU_Out<4>     |   14.733|
+RegIn1<0>       |ALU_Out<5>     |   15.523|
+RegIn1<0>       |ALU_Out<6>     |   15.824|
+RegIn1<0>       |ALU_Out<7>     |   16.954|
+RegIn1<0>       |ALU_Out<8>     |   19.002|
+RegIn1<0>       |ALU_Out<9>     |   19.056|
+RegIn1<0>       |ALU_Out<10>    |   21.242|
+RegIn1<0>       |ALU_Out<11>    |   22.001|
+RegIn1<0>       |ALU_Out<12>    |   22.388|
+RegIn1<0>       |ALU_Out<13>    |   23.131|
+RegIn1<0>       |ALU_Out<14>    |   24.823|
+RegIn1<0>       |ALU_Out<15>    |   25.662|
+RegIn1<0>       |ALU_Out<16>    |   26.520|
+RegIn1<0>       |ALU_Out<17>    |   28.824|
+RegIn1<0>       |ALU_Out<18>    |   29.283|
+RegIn1<0>       |ALU_Out<19>    |   31.240|
+RegIn1<0>       |ALU_Out<20>    |   31.055|
+RegIn1<0>       |ALU_Out<21>    |   32.319|
+RegIn1<0>       |ALU_Out<22>    |   34.676|
+RegIn1<0>       |ALU_Out<23>    |   35.484|
+RegIn1<0>       |ALU_Out<24>    |   36.389|
+RegIn1<0>       |ALU_Out<25>    |   37.920|
+RegIn1<0>       |ALU_Out<26>    |   38.189|
+RegIn1<0>       |ALU_Out<27>    |   39.449|
+RegIn1<0>       |ALU_Out<28>    |   40.744|
+RegIn1<0>       |ALU_Out<29>    |   42.192|
+RegIn1<0>       |ALU_Out<30>    |   43.424|
+RegIn1<0>       |ALU_Out<31>    |   43.047|
+RegIn1<1>       |ALU_Out<1>     |    9.766|
+RegIn1<1>       |ALU_Out<2>     |   10.820|
+RegIn1<1>       |ALU_Out<3>     |   13.772|
+RegIn1<1>       |ALU_Out<4>     |   16.000|
+RegIn1<1>       |ALU_Out<5>     |   16.790|
+RegIn1<1>       |ALU_Out<6>     |   17.091|
+RegIn1<1>       |ALU_Out<7>     |   18.221|
+RegIn1<1>       |ALU_Out<8>     |   20.269|
+RegIn1<1>       |ALU_Out<9>     |   20.323|
+RegIn1<1>       |ALU_Out<10>    |   22.509|
+RegIn1<1>       |ALU_Out<11>    |   23.268|
+RegIn1<1>       |ALU_Out<12>    |   23.655|
+RegIn1<1>       |ALU_Out<13>    |   24.398|
+RegIn1<1>       |ALU_Out<14>    |   26.090|
+RegIn1<1>       |ALU_Out<15>    |   26.929|
+RegIn1<1>       |ALU_Out<16>    |   27.787|
+RegIn1<1>       |ALU_Out<17>    |   30.091|
+RegIn1<1>       |ALU_Out<18>    |   30.550|
+RegIn1<1>       |ALU_Out<19>    |   32.507|
+RegIn1<1>       |ALU_Out<20>    |   32.322|
+RegIn1<1>       |ALU_Out<21>    |   33.586|
+RegIn1<1>       |ALU_Out<22>    |   35.943|
+RegIn1<1>       |ALU_Out<23>    |   36.751|
+RegIn1<1>       |ALU_Out<24>    |   37.656|
+RegIn1<1>       |ALU_Out<25>    |   39.187|
+RegIn1<1>       |ALU_Out<26>    |   39.456|
+RegIn1<1>       |ALU_Out<27>    |   40.716|
+RegIn1<1>       |ALU_Out<28>    |   42.011|
+RegIn1<1>       |ALU_Out<29>    |   43.459|
+RegIn1<1>       |ALU_Out<30>    |   44.691|
+RegIn1<1>       |ALU_Out<31>    |   44.314|
+RegIn1<2>       |ALU_Out<2>     |    7.441|
+RegIn1<2>       |ALU_Out<3>     |   11.340|
+RegIn1<2>       |ALU_Out<4>     |   13.568|
+RegIn1<2>       |ALU_Out<5>     |   14.358|
+RegIn1<2>       |ALU_Out<6>     |   14.659|
+RegIn1<2>       |ALU_Out<7>     |   15.789|
+RegIn1<2>       |ALU_Out<8>     |   17.837|
+RegIn1<2>       |ALU_Out<9>     |   17.891|
+RegIn1<2>       |ALU_Out<10>    |   20.077|
+RegIn1<2>       |ALU_Out<11>    |   20.836|
+RegIn1<2>       |ALU_Out<12>    |   21.223|
+RegIn1<2>       |ALU_Out<13>    |   21.966|
+RegIn1<2>       |ALU_Out<14>    |   23.658|
+RegIn1<2>       |ALU_Out<15>    |   24.497|
+RegIn1<2>       |ALU_Out<16>    |   25.355|
+RegIn1<2>       |ALU_Out<17>    |   27.659|
+RegIn1<2>       |ALU_Out<18>    |   28.118|
+RegIn1<2>       |ALU_Out<19>    |   30.075|
+RegIn1<2>       |ALU_Out<20>    |   29.890|
+RegIn1<2>       |ALU_Out<21>    |   31.154|
+RegIn1<2>       |ALU_Out<22>    |   33.511|
+RegIn1<2>       |ALU_Out<23>    |   34.319|
+RegIn1<2>       |ALU_Out<24>    |   35.224|
+RegIn1<2>       |ALU_Out<25>    |   36.755|
+RegIn1<2>       |ALU_Out<26>    |   37.024|
+RegIn1<2>       |ALU_Out<27>    |   38.284|
+RegIn1<2>       |ALU_Out<28>    |   39.579|
+RegIn1<2>       |ALU_Out<29>    |   41.027|
+RegIn1<2>       |ALU_Out<30>    |   42.259|
+RegIn1<2>       |ALU_Out<31>    |   41.882|
+RegIn1<3>       |ALU_Out<3>     |    8.220|
+RegIn1<3>       |ALU_Out<4>     |   10.694|
+RegIn1<3>       |ALU_Out<5>     |   11.484|
+RegIn1<3>       |ALU_Out<6>     |   11.785|
+RegIn1<3>       |ALU_Out<7>     |   12.915|
+RegIn1<3>       |ALU_Out<8>     |   14.963|
+RegIn1<3>       |ALU_Out<9>     |   15.017|
+RegIn1<3>       |ALU_Out<10>    |   17.203|
+RegIn1<3>       |ALU_Out<11>    |   17.962|
+RegIn1<3>       |ALU_Out<12>    |   18.349|
+RegIn1<3>       |ALU_Out<13>    |   19.092|
+RegIn1<3>       |ALU_Out<14>    |   20.784|
+RegIn1<3>       |ALU_Out<15>    |   21.623|
+RegIn1<3>       |ALU_Out<16>    |   22.481|
+RegIn1<3>       |ALU_Out<17>    |   24.785|
+RegIn1<3>       |ALU_Out<18>    |   25.244|
+RegIn1<3>       |ALU_Out<19>    |   27.201|
+RegIn1<3>       |ALU_Out<20>    |   27.016|
+RegIn1<3>       |ALU_Out<21>    |   28.280|
+RegIn1<3>       |ALU_Out<22>    |   30.637|
+RegIn1<3>       |ALU_Out<23>    |   31.445|
+RegIn1<3>       |ALU_Out<24>    |   32.350|
+RegIn1<3>       |ALU_Out<25>    |   33.881|
+RegIn1<3>       |ALU_Out<26>    |   34.150|
+RegIn1<3>       |ALU_Out<27>    |   35.410|
+RegIn1<3>       |ALU_Out<28>    |   36.705|
+RegIn1<3>       |ALU_Out<29>    |   38.153|
+RegIn1<3>       |ALU_Out<30>    |   39.385|
+RegIn1<3>       |ALU_Out<31>    |   39.008|
+RegIn1<4>       |ALU_Out<4>     |    9.306|
+RegIn1<4>       |ALU_Out<5>     |   11.003|
+RegIn1<4>       |ALU_Out<6>     |   11.304|
+RegIn1<4>       |ALU_Out<7>     |   12.434|
+RegIn1<4>       |ALU_Out<8>     |   14.482|
+RegIn1<4>       |ALU_Out<9>     |   14.536|
+RegIn1<4>       |ALU_Out<10>    |   16.722|
+RegIn1<4>       |ALU_Out<11>    |   17.481|
+RegIn1<4>       |ALU_Out<12>    |   17.868|
+RegIn1<4>       |ALU_Out<13>    |   18.611|
+RegIn1<4>       |ALU_Out<14>    |   20.303|
+RegIn1<4>       |ALU_Out<15>    |   21.142|
+RegIn1<4>       |ALU_Out<16>    |   22.000|
+RegIn1<4>       |ALU_Out<17>    |   24.304|
+RegIn1<4>       |ALU_Out<18>    |   24.763|
+RegIn1<4>       |ALU_Out<19>    |   26.720|
+RegIn1<4>       |ALU_Out<20>    |   26.535|
+RegIn1<4>       |ALU_Out<21>    |   27.799|
+RegIn1<4>       |ALU_Out<22>    |   30.156|
+RegIn1<4>       |ALU_Out<23>    |   30.964|
+RegIn1<4>       |ALU_Out<24>    |   31.869|
+RegIn1<4>       |ALU_Out<25>    |   33.400|
+RegIn1<4>       |ALU_Out<26>    |   33.669|
+RegIn1<4>       |ALU_Out<27>    |   34.929|
+RegIn1<4>       |ALU_Out<28>    |   36.224|
+RegIn1<4>       |ALU_Out<29>    |   37.672|
+RegIn1<4>       |ALU_Out<30>    |   38.904|
+RegIn1<4>       |ALU_Out<31>    |   38.527|
+RegIn1<5>       |ALU_Out<5>     |    9.220|
+RegIn1<5>       |ALU_Out<6>     |    9.972|
+RegIn1<5>       |ALU_Out<7>     |   11.102|
+RegIn1<5>       |ALU_Out<8>     |   13.150|
+RegIn1<5>       |ALU_Out<9>     |   13.204|
+RegIn1<5>       |ALU_Out<10>    |   15.390|
+RegIn1<5>       |ALU_Out<11>    |   16.149|
+RegIn1<5>       |ALU_Out<12>    |   16.536|
+RegIn1<5>       |ALU_Out<13>    |   17.279|
+RegIn1<5>       |ALU_Out<14>    |   18.971|
+RegIn1<5>       |ALU_Out<15>    |   19.810|
+RegIn1<5>       |ALU_Out<16>    |   20.668|
+RegIn1<5>       |ALU_Out<17>    |   22.972|
+RegIn1<5>       |ALU_Out<18>    |   23.431|
+RegIn1<5>       |ALU_Out<19>    |   25.388|
+RegIn1<5>       |ALU_Out<20>    |   25.203|
+RegIn1<5>       |ALU_Out<21>    |   26.467|
+RegIn1<5>       |ALU_Out<22>    |   28.824|
+RegIn1<5>       |ALU_Out<23>    |   29.632|
+RegIn1<5>       |ALU_Out<24>    |   30.537|
+RegIn1<5>       |ALU_Out<25>    |   32.068|
+RegIn1<5>       |ALU_Out<26>    |   32.337|
+RegIn1<5>       |ALU_Out<27>    |   33.597|
+RegIn1<5>       |ALU_Out<28>    |   34.892|
+RegIn1<5>       |ALU_Out<29>    |   36.340|
+RegIn1<5>       |ALU_Out<30>    |   37.572|
+RegIn1<5>       |ALU_Out<31>    |   37.195|
+RegIn1<6>       |ALU_Out<6>     |    8.348|
+RegIn1<6>       |ALU_Out<7>     |    9.667|
+RegIn1<6>       |ALU_Out<8>     |   11.715|
+RegIn1<6>       |ALU_Out<9>     |   11.769|
+RegIn1<6>       |ALU_Out<10>    |   13.955|
+RegIn1<6>       |ALU_Out<11>    |   14.714|
+RegIn1<6>       |ALU_Out<12>    |   15.101|
+RegIn1<6>       |ALU_Out<13>    |   15.844|
+RegIn1<6>       |ALU_Out<14>    |   17.536|
+RegIn1<6>       |ALU_Out<15>    |   18.375|
+RegIn1<6>       |ALU_Out<16>    |   19.233|
+RegIn1<6>       |ALU_Out<17>    |   21.537|
+RegIn1<6>       |ALU_Out<18>    |   21.996|
+RegIn1<6>       |ALU_Out<19>    |   23.953|
+RegIn1<6>       |ALU_Out<20>    |   23.768|
+RegIn1<6>       |ALU_Out<21>    |   25.032|
+RegIn1<6>       |ALU_Out<22>    |   27.389|
+RegIn1<6>       |ALU_Out<23>    |   28.197|
+RegIn1<6>       |ALU_Out<24>    |   29.102|
+RegIn1<6>       |ALU_Out<25>    |   30.633|
+RegIn1<6>       |ALU_Out<26>    |   30.902|
+RegIn1<6>       |ALU_Out<27>    |   32.162|
+RegIn1<6>       |ALU_Out<28>    |   33.457|
+RegIn1<6>       |ALU_Out<29>    |   34.905|
+RegIn1<6>       |ALU_Out<30>    |   36.137|
+RegIn1<6>       |ALU_Out<31>    |   35.760|
+RegIn1<7>       |ALU_Out<7>     |    8.538|
+RegIn1<7>       |ALU_Out<8>     |   10.438|
+RegIn1<7>       |ALU_Out<9>     |   10.492|
+RegIn1<7>       |ALU_Out<10>    |   12.678|
+RegIn1<7>       |ALU_Out<11>    |   13.437|
+RegIn1<7>       |ALU_Out<12>    |   13.824|
+RegIn1<7>       |ALU_Out<13>    |   14.567|
+RegIn1<7>       |ALU_Out<14>    |   16.259|
+RegIn1<7>       |ALU_Out<15>    |   17.098|
+RegIn1<7>       |ALU_Out<16>    |   17.956|
+RegIn1<7>       |ALU_Out<17>    |   20.260|
+RegIn1<7>       |ALU_Out<18>    |   20.719|
+RegIn1<7>       |ALU_Out<19>    |   22.676|
+RegIn1<7>       |ALU_Out<20>    |   22.491|
+RegIn1<7>       |ALU_Out<21>    |   23.755|
+RegIn1<7>       |ALU_Out<22>    |   26.112|
+RegIn1<7>       |ALU_Out<23>    |   26.920|
+RegIn1<7>       |ALU_Out<24>    |   27.825|
+RegIn1<7>       |ALU_Out<25>    |   29.356|
+RegIn1<7>       |ALU_Out<26>    |   29.625|
+RegIn1<7>       |ALU_Out<27>    |   30.885|
+RegIn1<7>       |ALU_Out<28>    |   32.180|
+RegIn1<7>       |ALU_Out<29>    |   33.628|
+RegIn1<7>       |ALU_Out<30>    |   34.860|
+RegIn1<7>       |ALU_Out<31>    |   34.483|
+RegIn1<8>       |ALU_Out<8>     |    8.866|
+RegIn1<8>       |ALU_Out<9>     |    9.769|
+RegIn1<8>       |ALU_Out<10>    |   11.955|
+RegIn1<8>       |ALU_Out<11>    |   12.714|
+RegIn1<8>       |ALU_Out<12>    |   13.101|
+RegIn1<8>       |ALU_Out<13>    |   13.844|
+RegIn1<8>       |ALU_Out<14>    |   15.536|
+RegIn1<8>       |ALU_Out<15>    |   16.375|
+RegIn1<8>       |ALU_Out<16>    |   17.233|
+RegIn1<8>       |ALU_Out<17>    |   19.537|
+RegIn1<8>       |ALU_Out<18>    |   19.996|
+RegIn1<8>       |ALU_Out<19>    |   21.953|
+RegIn1<8>       |ALU_Out<20>    |   21.768|
+RegIn1<8>       |ALU_Out<21>    |   23.032|
+RegIn1<8>       |ALU_Out<22>    |   25.389|
+RegIn1<8>       |ALU_Out<23>    |   26.197|
+RegIn1<8>       |ALU_Out<24>    |   27.102|
+RegIn1<8>       |ALU_Out<25>    |   28.633|
+RegIn1<8>       |ALU_Out<26>    |   28.902|
+RegIn1<8>       |ALU_Out<27>    |   30.162|
+RegIn1<8>       |ALU_Out<28>    |   31.457|
+RegIn1<8>       |ALU_Out<29>    |   32.905|
+RegIn1<8>       |ALU_Out<30>    |   34.137|
+RegIn1<8>       |ALU_Out<31>    |   33.760|
+RegIn1<9>       |ALU_Out<9>     |    8.109|
+RegIn1<9>       |ALU_Out<10>    |   10.789|
+RegIn1<9>       |ALU_Out<11>    |   11.548|
+RegIn1<9>       |ALU_Out<12>    |   11.935|
+RegIn1<9>       |ALU_Out<13>    |   12.678|
+RegIn1<9>       |ALU_Out<14>    |   14.370|
+RegIn1<9>       |ALU_Out<15>    |   15.209|
+RegIn1<9>       |ALU_Out<16>    |   16.067|
+RegIn1<9>       |ALU_Out<17>    |   18.371|
+RegIn1<9>       |ALU_Out<18>    |   18.830|
+RegIn1<9>       |ALU_Out<19>    |   20.787|
+RegIn1<9>       |ALU_Out<20>    |   20.602|
+RegIn1<9>       |ALU_Out<21>    |   21.866|
+RegIn1<9>       |ALU_Out<22>    |   24.223|
+RegIn1<9>       |ALU_Out<23>    |   25.031|
+RegIn1<9>       |ALU_Out<24>    |   25.936|
+RegIn1<9>       |ALU_Out<25>    |   27.467|
+RegIn1<9>       |ALU_Out<26>    |   27.736|
+RegIn1<9>       |ALU_Out<27>    |   28.996|
+RegIn1<9>       |ALU_Out<28>    |   30.291|
+RegIn1<9>       |ALU_Out<29>    |   31.739|
+RegIn1<9>       |ALU_Out<30>    |   32.971|
+RegIn1<9>       |ALU_Out<31>    |   32.594|
+RegIn1<10>      |ALU_Out<10>    |    8.465|
+RegIn1<10>      |ALU_Out<11>    |   10.583|
+RegIn1<10>      |ALU_Out<12>    |   10.970|
+RegIn1<10>      |ALU_Out<13>    |   11.713|
+RegIn1<10>      |ALU_Out<14>    |   13.405|
+RegIn1<10>      |ALU_Out<15>    |   14.244|
+RegIn1<10>      |ALU_Out<16>    |   15.102|
+RegIn1<10>      |ALU_Out<17>    |   17.406|
+RegIn1<10>      |ALU_Out<18>    |   17.865|
+RegIn1<10>      |ALU_Out<19>    |   19.822|
+RegIn1<10>      |ALU_Out<20>    |   19.637|
+RegIn1<10>      |ALU_Out<21>    |   20.901|
+RegIn1<10>      |ALU_Out<22>    |   23.258|
+RegIn1<10>      |ALU_Out<23>    |   24.066|
+RegIn1<10>      |ALU_Out<24>    |   24.971|
+RegIn1<10>      |ALU_Out<25>    |   26.502|
+RegIn1<10>      |ALU_Out<26>    |   26.771|
+RegIn1<10>      |ALU_Out<27>    |   28.031|
+RegIn1<10>      |ALU_Out<28>    |   29.326|
+RegIn1<10>      |ALU_Out<29>    |   30.774|
+RegIn1<10>      |ALU_Out<30>    |   32.006|
+RegIn1<10>      |ALU_Out<31>    |   31.629|
+RegIn1<11>      |ALU_Out<11>    |    8.573|
+RegIn1<11>      |ALU_Out<12>    |    9.831|
+RegIn1<11>      |ALU_Out<13>    |   10.574|
+RegIn1<11>      |ALU_Out<14>    |   12.266|
+RegIn1<11>      |ALU_Out<15>    |   13.105|
+RegIn1<11>      |ALU_Out<16>    |   13.963|
+RegIn1<11>      |ALU_Out<17>    |   16.267|
+RegIn1<11>      |ALU_Out<18>    |   16.726|
+RegIn1<11>      |ALU_Out<19>    |   18.683|
+RegIn1<11>      |ALU_Out<20>    |   18.498|
+RegIn1<11>      |ALU_Out<21>    |   19.762|
+RegIn1<11>      |ALU_Out<22>    |   22.119|
+RegIn1<11>      |ALU_Out<23>    |   22.927|
+RegIn1<11>      |ALU_Out<24>    |   23.832|
+RegIn1<11>      |ALU_Out<25>    |   25.363|
+RegIn1<11>      |ALU_Out<26>    |   25.632|
+RegIn1<11>      |ALU_Out<27>    |   26.892|
+RegIn1<11>      |ALU_Out<28>    |   28.187|
+RegIn1<11>      |ALU_Out<29>    |   29.635|
+RegIn1<11>      |ALU_Out<30>    |   30.867|
+RegIn1<11>      |ALU_Out<31>    |   30.490|
+RegIn1<12>      |ALU_Out<12>    |    9.863|
+RegIn1<12>      |ALU_Out<13>    |   10.093|
+RegIn1<12>      |ALU_Out<14>    |   11.785|
+RegIn1<12>      |ALU_Out<15>    |   12.624|
+RegIn1<12>      |ALU_Out<16>    |   13.482|
+RegIn1<12>      |ALU_Out<17>    |   15.786|
+RegIn1<12>      |ALU_Out<18>    |   16.245|
+RegIn1<12>      |ALU_Out<19>    |   18.202|
+RegIn1<12>      |ALU_Out<20>    |   18.017|
+RegIn1<12>      |ALU_Out<21>    |   19.281|
+RegIn1<12>      |ALU_Out<22>    |   21.638|
+RegIn1<12>      |ALU_Out<23>    |   22.446|
+RegIn1<12>      |ALU_Out<24>    |   23.351|
+RegIn1<12>      |ALU_Out<25>    |   24.882|
+RegIn1<12>      |ALU_Out<26>    |   25.151|
+RegIn1<12>      |ALU_Out<27>    |   26.411|
+RegIn1<12>      |ALU_Out<28>    |   27.706|
+RegIn1<12>      |ALU_Out<29>    |   29.154|
+RegIn1<12>      |ALU_Out<30>    |   30.386|
+RegIn1<12>      |ALU_Out<31>    |   30.009|
+RegIn1<13>      |ALU_Out<13>    |    8.202|
+RegIn1<13>      |ALU_Out<14>    |    9.339|
+RegIn1<13>      |ALU_Out<15>    |   10.178|
+RegIn1<13>      |ALU_Out<16>    |   11.036|
+RegIn1<13>      |ALU_Out<17>    |   13.340|
+RegIn1<13>      |ALU_Out<18>    |   13.799|
+RegIn1<13>      |ALU_Out<19>    |   15.756|
+RegIn1<13>      |ALU_Out<20>    |   15.571|
+RegIn1<13>      |ALU_Out<21>    |   16.835|
+RegIn1<13>      |ALU_Out<22>    |   19.192|
+RegIn1<13>      |ALU_Out<23>    |   20.000|
+RegIn1<13>      |ALU_Out<24>    |   20.905|
+RegIn1<13>      |ALU_Out<25>    |   22.436|
+RegIn1<13>      |ALU_Out<26>    |   22.705|
+RegIn1<13>      |ALU_Out<27>    |   23.965|
+RegIn1<13>      |ALU_Out<28>    |   25.260|
+RegIn1<13>      |ALU_Out<29>    |   26.708|
+RegIn1<13>      |ALU_Out<30>    |   27.940|
+RegIn1<13>      |ALU_Out<31>    |   27.563|
+RegIn1<14>      |ALU_Out<14>    |    9.314|
+RegIn1<14>      |ALU_Out<15>    |   10.324|
+RegIn1<14>      |ALU_Out<16>    |   11.182|
+RegIn1<14>      |ALU_Out<17>    |   13.486|
+RegIn1<14>      |ALU_Out<18>    |   13.945|
+RegIn1<14>      |ALU_Out<19>    |   15.902|
+RegIn1<14>      |ALU_Out<20>    |   15.717|
+RegIn1<14>      |ALU_Out<21>    |   16.981|
+RegIn1<14>      |ALU_Out<22>    |   19.338|
+RegIn1<14>      |ALU_Out<23>    |   20.146|
+RegIn1<14>      |ALU_Out<24>    |   21.051|
+RegIn1<14>      |ALU_Out<25>    |   22.582|
+RegIn1<14>      |ALU_Out<26>    |   22.851|
+RegIn1<14>      |ALU_Out<27>    |   24.111|
+RegIn1<14>      |ALU_Out<28>    |   25.406|
+RegIn1<14>      |ALU_Out<29>    |   26.854|
+RegIn1<14>      |ALU_Out<30>    |   28.086|
+RegIn1<14>      |ALU_Out<31>    |   27.709|
+RegIn1<15>      |ALU_Out<15>    |    8.731|
+RegIn1<15>      |ALU_Out<16>    |    9.749|
+RegIn1<15>      |ALU_Out<17>    |   12.053|
+RegIn1<15>      |ALU_Out<18>    |   12.512|
+RegIn1<15>      |ALU_Out<19>    |   14.469|
+RegIn1<15>      |ALU_Out<20>    |   14.284|
+RegIn1<15>      |ALU_Out<21>    |   15.548|
+RegIn1<15>      |ALU_Out<22>    |   17.905|
+RegIn1<15>      |ALU_Out<23>    |   18.713|
+RegIn1<15>      |ALU_Out<24>    |   19.618|
+RegIn1<15>      |ALU_Out<25>    |   21.149|
+RegIn1<15>      |ALU_Out<26>    |   21.418|
+RegIn1<15>      |ALU_Out<27>    |   22.678|
+RegIn1<15>      |ALU_Out<28>    |   23.973|
+RegIn1<15>      |ALU_Out<29>    |   25.421|
+RegIn1<15>      |ALU_Out<30>    |   26.653|
+RegIn1<15>      |ALU_Out<31>    |   26.276|
+RegIn1<16>      |ALU_Out<16>    |    8.425|
+RegIn1<16>      |ALU_Out<17>    |   10.266|
+RegIn1<16>      |ALU_Out<18>    |   10.725|
+RegIn1<16>      |ALU_Out<19>    |   12.682|
+RegIn1<16>      |ALU_Out<20>    |   12.497|
+RegIn1<16>      |ALU_Out<21>    |   13.761|
+RegIn1<16>      |ALU_Out<22>    |   16.118|
+RegIn1<16>      |ALU_Out<23>    |   16.926|
+RegIn1<16>      |ALU_Out<24>    |   17.831|
+RegIn1<16>      |ALU_Out<25>    |   19.362|
+RegIn1<16>      |ALU_Out<26>    |   19.631|
+RegIn1<16>      |ALU_Out<27>    |   20.891|
+RegIn1<16>      |ALU_Out<28>    |   22.186|
+RegIn1<16>      |ALU_Out<29>    |   23.634|
+RegIn1<16>      |ALU_Out<30>    |   24.866|
+RegIn1<16>      |ALU_Out<31>    |   24.489|
+RegIn1<17>      |ALU_Out<17>    |    9.329|
+RegIn1<17>      |ALU_Out<18>    |   10.189|
+RegIn1<17>      |ALU_Out<19>    |   12.146|
+RegIn1<17>      |ALU_Out<20>    |   11.961|
+RegIn1<17>      |ALU_Out<21>    |   13.225|
+RegIn1<17>      |ALU_Out<22>    |   15.582|
+RegIn1<17>      |ALU_Out<23>    |   16.390|
+RegIn1<17>      |ALU_Out<24>    |   17.295|
+RegIn1<17>      |ALU_Out<25>    |   18.826|
+RegIn1<17>      |ALU_Out<26>    |   19.095|
+RegIn1<17>      |ALU_Out<27>    |   20.355|
+RegIn1<17>      |ALU_Out<28>    |   21.650|
+RegIn1<17>      |ALU_Out<29>    |   23.098|
+RegIn1<17>      |ALU_Out<30>    |   24.330|
+RegIn1<17>      |ALU_Out<31>    |   23.953|
+RegIn1<18>      |ALU_Out<18>    |    8.529|
+RegIn1<18>      |ALU_Out<19>    |   10.174|
+RegIn1<18>      |ALU_Out<20>    |    9.989|
+RegIn1<18>      |ALU_Out<21>    |   11.253|
+RegIn1<18>      |ALU_Out<22>    |   13.610|
+RegIn1<18>      |ALU_Out<23>    |   14.418|
+RegIn1<18>      |ALU_Out<24>    |   15.323|
+RegIn1<18>      |ALU_Out<25>    |   16.854|
+RegIn1<18>      |ALU_Out<26>    |   17.123|
+RegIn1<18>      |ALU_Out<27>    |   18.383|
+RegIn1<18>      |ALU_Out<28>    |   19.678|
+RegIn1<18>      |ALU_Out<29>    |   21.126|
+RegIn1<18>      |ALU_Out<30>    |   22.358|
+RegIn1<18>      |ALU_Out<31>    |   21.981|
+RegIn1<19>      |ALU_Out<19>    |   10.137|
+RegIn1<19>      |ALU_Out<20>    |    9.024|
+RegIn1<19>      |ALU_Out<21>    |   10.288|
+RegIn1<19>      |ALU_Out<22>    |   12.645|
+RegIn1<19>      |ALU_Out<23>    |   13.453|
+RegIn1<19>      |ALU_Out<24>    |   14.358|
+RegIn1<19>      |ALU_Out<25>    |   15.889|
+RegIn1<19>      |ALU_Out<26>    |   16.158|
+RegIn1<19>      |ALU_Out<27>    |   17.418|
+RegIn1<19>      |ALU_Out<28>    |   18.713|
+RegIn1<19>      |ALU_Out<29>    |   20.161|
+RegIn1<19>      |ALU_Out<30>    |   21.393|
+RegIn1<19>      |ALU_Out<31>    |   21.016|
+RegIn1<20>      |ALU_Out<20>    |    8.559|
+RegIn1<20>      |ALU_Out<21>    |    9.957|
+RegIn1<20>      |ALU_Out<22>    |   12.314|
+RegIn1<20>      |ALU_Out<23>    |   13.122|
+RegIn1<20>      |ALU_Out<24>    |   14.027|
+RegIn1<20>      |ALU_Out<25>    |   15.558|
+RegIn1<20>      |ALU_Out<26>    |   15.827|
+RegIn1<20>      |ALU_Out<27>    |   17.087|
+RegIn1<20>      |ALU_Out<28>    |   18.382|
+RegIn1<20>      |ALU_Out<29>    |   19.830|
+RegIn1<20>      |ALU_Out<30>    |   21.062|
+RegIn1<20>      |ALU_Out<31>    |   20.685|
+RegIn1<21>      |ALU_Out<21>    |    8.498|
+RegIn1<21>      |ALU_Out<22>    |   10.171|
+RegIn1<21>      |ALU_Out<23>    |   10.979|
+RegIn1<21>      |ALU_Out<24>    |   11.884|
+RegIn1<21>      |ALU_Out<25>    |   13.415|
+RegIn1<21>      |ALU_Out<26>    |   13.684|
+RegIn1<21>      |ALU_Out<27>    |   14.944|
+RegIn1<21>      |ALU_Out<28>    |   16.239|
+RegIn1<21>      |ALU_Out<29>    |   17.687|
+RegIn1<21>      |ALU_Out<30>    |   18.919|
+RegIn1<21>      |ALU_Out<31>    |   18.542|
+RegIn1<22>      |ALU_Out<22>    |    9.119|
+RegIn1<22>      |ALU_Out<23>    |   10.836|
+RegIn1<22>      |ALU_Out<24>    |   11.741|
+RegIn1<22>      |ALU_Out<25>    |   13.272|
+RegIn1<22>      |ALU_Out<26>    |   13.541|
+RegIn1<22>      |ALU_Out<27>    |   14.801|
+RegIn1<22>      |ALU_Out<28>    |   16.096|
+RegIn1<22>      |ALU_Out<29>    |   17.544|
+RegIn1<22>      |ALU_Out<30>    |   18.776|
+RegIn1<22>      |ALU_Out<31>    |   18.399|
+RegIn1<23>      |ALU_Out<23>    |    7.409|
+RegIn1<23>      |ALU_Out<24>    |    9.239|
+RegIn1<23>      |ALU_Out<25>    |   10.770|
+RegIn1<23>      |ALU_Out<26>    |   11.039|
+RegIn1<23>      |ALU_Out<27>    |   12.299|
+RegIn1<23>      |ALU_Out<28>    |   13.594|
+RegIn1<23>      |ALU_Out<29>    |   15.042|
+RegIn1<23>      |ALU_Out<30>    |   16.274|
+RegIn1<23>      |ALU_Out<31>    |   15.897|
+RegIn1<24>      |ALU_Out<24>    |    7.746|
+RegIn1<24>      |ALU_Out<25>    |    9.199|
+RegIn1<24>      |ALU_Out<26>    |    9.468|
+RegIn1<24>      |ALU_Out<27>    |   10.728|
+RegIn1<24>      |ALU_Out<28>    |   12.023|
+RegIn1<24>      |ALU_Out<29>    |   13.471|
+RegIn1<24>      |ALU_Out<30>    |   14.703|
+RegIn1<24>      |ALU_Out<31>    |   14.326|
+RegIn1<25>      |ALU_Out<25>    |    7.646|
+RegIn1<25>      |ALU_Out<26>    |    8.618|
+RegIn1<25>      |ALU_Out<27>    |    9.878|
+RegIn1<25>      |ALU_Out<28>    |   11.173|
+RegIn1<25>      |ALU_Out<29>    |   12.621|
+RegIn1<25>      |ALU_Out<30>    |   13.853|
+RegIn1<25>      |ALU_Out<31>    |   13.476|
+RegIn1<26>      |ALU_Out<26>    |    7.609|
+RegIn1<26>      |ALU_Out<27>    |    8.734|
+RegIn1<26>      |ALU_Out<28>    |   10.029|
+RegIn1<26>      |ALU_Out<29>    |   11.477|
+RegIn1<26>      |ALU_Out<30>    |   12.709|
+RegIn1<26>      |ALU_Out<31>    |   12.332|
+RegIn1<27>      |ALU_Out<27>    |    7.645|
+RegIn1<27>      |ALU_Out<28>    |    8.977|
+RegIn1<27>      |ALU_Out<29>    |   10.425|
+RegIn1<27>      |ALU_Out<30>    |   11.657|
+RegIn1<27>      |ALU_Out<31>    |   11.280|
+RegIn1<28>      |ALU_Out<28>    |    7.540|
+RegIn1<28>      |ALU_Out<29>    |    8.892|
+RegIn1<28>      |ALU_Out<30>    |   10.124|
+RegIn1<28>      |ALU_Out<31>    |    9.747|
+RegIn1<29>      |ALU_Out<29>    |    7.869|
+RegIn1<29>      |ALU_Out<30>    |    9.556|
+RegIn1<29>      |ALU_Out<31>    |    9.179|
+RegIn1<30>      |ALU_Out<30>    |    8.196|
+RegIn1<30>      |ALU_Out<31>    |    7.686|
+RegIn1<31>      |ALU_Out<31>    |    9.115|
+RegIn2<0>       |ALU_Out<0>     |   10.439|
+RegIn2<0>       |ALU_Out<1>     |   11.617|
+RegIn2<0>       |ALU_Out<2>     |   12.758|
+RegIn2<0>       |ALU_Out<3>     |   15.710|
+RegIn2<0>       |ALU_Out<4>     |   17.938|
+RegIn2<0>       |ALU_Out<5>     |   18.728|
+RegIn2<0>       |ALU_Out<6>     |   19.029|
+RegIn2<0>       |ALU_Out<7>     |   20.159|
+RegIn2<0>       |ALU_Out<8>     |   22.207|
+RegIn2<0>       |ALU_Out<9>     |   22.261|
+RegIn2<0>       |ALU_Out<10>    |   24.447|
+RegIn2<0>       |ALU_Out<11>    |   25.206|
+RegIn2<0>       |ALU_Out<12>    |   25.593|
+RegIn2<0>       |ALU_Out<13>    |   26.336|
+RegIn2<0>       |ALU_Out<14>    |   28.028|
+RegIn2<0>       |ALU_Out<15>    |   28.867|
+RegIn2<0>       |ALU_Out<16>    |   29.725|
+RegIn2<0>       |ALU_Out<17>    |   32.029|
+RegIn2<0>       |ALU_Out<18>    |   32.488|
+RegIn2<0>       |ALU_Out<19>    |   34.445|
+RegIn2<0>       |ALU_Out<20>    |   34.260|
+RegIn2<0>       |ALU_Out<21>    |   35.524|
+RegIn2<0>       |ALU_Out<22>    |   37.881|
+RegIn2<0>       |ALU_Out<23>    |   38.689|
+RegIn2<0>       |ALU_Out<24>    |   39.594|
+RegIn2<0>       |ALU_Out<25>    |   41.125|
+RegIn2<0>       |ALU_Out<26>    |   41.394|
+RegIn2<0>       |ALU_Out<27>    |   42.654|
+RegIn2<0>       |ALU_Out<28>    |   43.949|
+RegIn2<0>       |ALU_Out<29>    |   45.397|
+RegIn2<0>       |ALU_Out<30>    |   46.629|
+RegIn2<0>       |ALU_Out<31>    |   46.252|
+RegIn2<1>       |ALU_Out<1>     |   12.012|
+RegIn2<1>       |ALU_Out<2>     |   13.545|
+RegIn2<1>       |ALU_Out<3>     |   16.497|
+RegIn2<1>       |ALU_Out<4>     |   18.725|
+RegIn2<1>       |ALU_Out<5>     |   19.515|
+RegIn2<1>       |ALU_Out<6>     |   19.816|
+RegIn2<1>       |ALU_Out<7>     |   20.946|
+RegIn2<1>       |ALU_Out<8>     |   22.994|
+RegIn2<1>       |ALU_Out<9>     |   23.048|
+RegIn2<1>       |ALU_Out<10>    |   25.234|
+RegIn2<1>       |ALU_Out<11>    |   25.993|
+RegIn2<1>       |ALU_Out<12>    |   26.380|
+RegIn2<1>       |ALU_Out<13>    |   27.123|
+RegIn2<1>       |ALU_Out<14>    |   28.815|
+RegIn2<1>       |ALU_Out<15>    |   29.654|
+RegIn2<1>       |ALU_Out<16>    |   30.512|
+RegIn2<1>       |ALU_Out<17>    |   32.816|
+RegIn2<1>       |ALU_Out<18>    |   33.275|
+RegIn2<1>       |ALU_Out<19>    |   35.232|
+RegIn2<1>       |ALU_Out<20>    |   35.047|
+RegIn2<1>       |ALU_Out<21>    |   36.311|
+RegIn2<1>       |ALU_Out<22>    |   38.668|
+RegIn2<1>       |ALU_Out<23>    |   39.476|
+RegIn2<1>       |ALU_Out<24>    |   40.381|
+RegIn2<1>       |ALU_Out<25>    |   41.912|
+RegIn2<1>       |ALU_Out<26>    |   42.181|
+RegIn2<1>       |ALU_Out<27>    |   43.441|
+RegIn2<1>       |ALU_Out<28>    |   44.736|
+RegIn2<1>       |ALU_Out<29>    |   46.184|
+RegIn2<1>       |ALU_Out<30>    |   47.416|
+RegIn2<1>       |ALU_Out<31>    |   47.039|
+RegIn2<2>       |ALU_Out<2>     |   11.678|
+RegIn2<2>       |ALU_Out<3>     |   12.598|
+RegIn2<2>       |ALU_Out<4>     |   14.826|
+RegIn2<2>       |ALU_Out<5>     |   15.616|
+RegIn2<2>       |ALU_Out<6>     |   15.917|
+RegIn2<2>       |ALU_Out<7>     |   17.047|
+RegIn2<2>       |ALU_Out<8>     |   19.095|
+RegIn2<2>       |ALU_Out<9>     |   19.149|
+RegIn2<2>       |ALU_Out<10>    |   21.335|
+RegIn2<2>       |ALU_Out<11>    |   22.094|
+RegIn2<2>       |ALU_Out<12>    |   22.481|
+RegIn2<2>       |ALU_Out<13>    |   23.224|
+RegIn2<2>       |ALU_Out<14>    |   24.916|
+RegIn2<2>       |ALU_Out<15>    |   25.755|
+RegIn2<2>       |ALU_Out<16>    |   26.613|
+RegIn2<2>       |ALU_Out<17>    |   28.917|
+RegIn2<2>       |ALU_Out<18>    |   29.376|
+RegIn2<2>       |ALU_Out<19>    |   31.333|
+RegIn2<2>       |ALU_Out<20>    |   31.148|
+RegIn2<2>       |ALU_Out<21>    |   32.412|
+RegIn2<2>       |ALU_Out<22>    |   34.769|
+RegIn2<2>       |ALU_Out<23>    |   35.577|
+RegIn2<2>       |ALU_Out<24>    |   36.482|
+RegIn2<2>       |ALU_Out<25>    |   38.013|
+RegIn2<2>       |ALU_Out<26>    |   38.282|
+RegIn2<2>       |ALU_Out<27>    |   39.542|
+RegIn2<2>       |ALU_Out<28>    |   40.837|
+RegIn2<2>       |ALU_Out<29>    |   42.285|
+RegIn2<2>       |ALU_Out<30>    |   43.517|
+RegIn2<2>       |ALU_Out<31>    |   43.140|
+RegIn2<3>       |ALU_Out<3>     |   11.465|
+RegIn2<3>       |ALU_Out<4>     |   13.013|
+RegIn2<3>       |ALU_Out<5>     |   13.803|
+RegIn2<3>       |ALU_Out<6>     |   14.104|
+RegIn2<3>       |ALU_Out<7>     |   15.234|
+RegIn2<3>       |ALU_Out<8>     |   17.282|
+RegIn2<3>       |ALU_Out<9>     |   17.336|
+RegIn2<3>       |ALU_Out<10>    |   19.522|
+RegIn2<3>       |ALU_Out<11>    |   20.281|
+RegIn2<3>       |ALU_Out<12>    |   20.668|
+RegIn2<3>       |ALU_Out<13>    |   21.411|
+RegIn2<3>       |ALU_Out<14>    |   23.103|
+RegIn2<3>       |ALU_Out<15>    |   23.942|
+RegIn2<3>       |ALU_Out<16>    |   24.800|
+RegIn2<3>       |ALU_Out<17>    |   27.104|
+RegIn2<3>       |ALU_Out<18>    |   27.563|
+RegIn2<3>       |ALU_Out<19>    |   29.520|
+RegIn2<3>       |ALU_Out<20>    |   29.335|
+RegIn2<3>       |ALU_Out<21>    |   30.599|
+RegIn2<3>       |ALU_Out<22>    |   32.956|
+RegIn2<3>       |ALU_Out<23>    |   33.764|
+RegIn2<3>       |ALU_Out<24>    |   34.669|
+RegIn2<3>       |ALU_Out<25>    |   36.200|
+RegIn2<3>       |ALU_Out<26>    |   36.469|
+RegIn2<3>       |ALU_Out<27>    |   37.729|
+RegIn2<3>       |ALU_Out<28>    |   39.024|
+RegIn2<3>       |ALU_Out<29>    |   40.472|
+RegIn2<3>       |ALU_Out<30>    |   41.704|
+RegIn2<3>       |ALU_Out<31>    |   41.327|
+RegIn2<4>       |ALU_Out<4>     |   11.490|
+RegIn2<4>       |ALU_Out<5>     |   13.536|
+RegIn2<4>       |ALU_Out<6>     |   13.837|
+RegIn2<4>       |ALU_Out<7>     |   14.967|
+RegIn2<4>       |ALU_Out<8>     |   17.015|
+RegIn2<4>       |ALU_Out<9>     |   17.069|
+RegIn2<4>       |ALU_Out<10>    |   19.255|
+RegIn2<4>       |ALU_Out<11>    |   20.014|
+RegIn2<4>       |ALU_Out<12>    |   20.401|
+RegIn2<4>       |ALU_Out<13>    |   21.144|
+RegIn2<4>       |ALU_Out<14>    |   22.836|
+RegIn2<4>       |ALU_Out<15>    |   23.675|
+RegIn2<4>       |ALU_Out<16>    |   24.533|
+RegIn2<4>       |ALU_Out<17>    |   26.837|
+RegIn2<4>       |ALU_Out<18>    |   27.296|
+RegIn2<4>       |ALU_Out<19>    |   29.253|
+RegIn2<4>       |ALU_Out<20>    |   29.068|
+RegIn2<4>       |ALU_Out<21>    |   30.332|
+RegIn2<4>       |ALU_Out<22>    |   32.689|
+RegIn2<4>       |ALU_Out<23>    |   33.497|
+RegIn2<4>       |ALU_Out<24>    |   34.402|
+RegIn2<4>       |ALU_Out<25>    |   35.933|
+RegIn2<4>       |ALU_Out<26>    |   36.202|
+RegIn2<4>       |ALU_Out<27>    |   37.462|
+RegIn2<4>       |ALU_Out<28>    |   38.757|
+RegIn2<4>       |ALU_Out<29>    |   40.205|
+RegIn2<4>       |ALU_Out<30>    |   41.437|
+RegIn2<4>       |ALU_Out<31>    |   41.060|
+RegIn2<5>       |ALU_Out<5>     |   11.996|
+RegIn2<5>       |ALU_Out<6>     |   12.909|
+RegIn2<5>       |ALU_Out<7>     |   14.039|
+RegIn2<5>       |ALU_Out<8>     |   16.087|
+RegIn2<5>       |ALU_Out<9>     |   16.141|
+RegIn2<5>       |ALU_Out<10>    |   18.327|
+RegIn2<5>       |ALU_Out<11>    |   19.086|
+RegIn2<5>       |ALU_Out<12>    |   19.473|
+RegIn2<5>       |ALU_Out<13>    |   20.216|
+RegIn2<5>       |ALU_Out<14>    |   21.908|
+RegIn2<5>       |ALU_Out<15>    |   22.747|
+RegIn2<5>       |ALU_Out<16>    |   23.605|
+RegIn2<5>       |ALU_Out<17>    |   25.909|
+RegIn2<5>       |ALU_Out<18>    |   26.368|
+RegIn2<5>       |ALU_Out<19>    |   28.325|
+RegIn2<5>       |ALU_Out<20>    |   28.140|
+RegIn2<5>       |ALU_Out<21>    |   29.404|
+RegIn2<5>       |ALU_Out<22>    |   31.761|
+RegIn2<5>       |ALU_Out<23>    |   32.569|
+RegIn2<5>       |ALU_Out<24>    |   33.474|
+RegIn2<5>       |ALU_Out<25>    |   35.005|
+RegIn2<5>       |ALU_Out<26>    |   35.274|
+RegIn2<5>       |ALU_Out<27>    |   36.534|
+RegIn2<5>       |ALU_Out<28>    |   37.829|
+RegIn2<5>       |ALU_Out<29>    |   39.277|
+RegIn2<5>       |ALU_Out<30>    |   40.509|
+RegIn2<5>       |ALU_Out<31>    |   40.132|
+RegIn2<6>       |ALU_Out<6>     |   12.228|
+RegIn2<6>       |ALU_Out<7>     |   13.819|
+RegIn2<6>       |ALU_Out<8>     |   15.867|
+RegIn2<6>       |ALU_Out<9>     |   15.921|
+RegIn2<6>       |ALU_Out<10>    |   18.107|
+RegIn2<6>       |ALU_Out<11>    |   18.866|
+RegIn2<6>       |ALU_Out<12>    |   19.253|
+RegIn2<6>       |ALU_Out<13>    |   19.996|
+RegIn2<6>       |ALU_Out<14>    |   21.688|
+RegIn2<6>       |ALU_Out<15>    |   22.527|
+RegIn2<6>       |ALU_Out<16>    |   23.385|
+RegIn2<6>       |ALU_Out<17>    |   25.689|
+RegIn2<6>       |ALU_Out<18>    |   26.148|
+RegIn2<6>       |ALU_Out<19>    |   28.105|
+RegIn2<6>       |ALU_Out<20>    |   27.920|
+RegIn2<6>       |ALU_Out<21>    |   29.184|
+RegIn2<6>       |ALU_Out<22>    |   31.541|
+RegIn2<6>       |ALU_Out<23>    |   32.349|
+RegIn2<6>       |ALU_Out<24>    |   33.254|
+RegIn2<6>       |ALU_Out<25>    |   34.785|
+RegIn2<6>       |ALU_Out<26>    |   35.054|
+RegIn2<6>       |ALU_Out<27>    |   36.314|
+RegIn2<6>       |ALU_Out<28>    |   37.609|
+RegIn2<6>       |ALU_Out<29>    |   39.057|
+RegIn2<6>       |ALU_Out<30>    |   40.289|
+RegIn2<6>       |ALU_Out<31>    |   39.912|
+RegIn2<7>       |ALU_Out<7>     |   12.630|
+RegIn2<7>       |ALU_Out<8>     |   14.290|
+RegIn2<7>       |ALU_Out<9>     |   14.344|
+RegIn2<7>       |ALU_Out<10>    |   16.530|
+RegIn2<7>       |ALU_Out<11>    |   17.289|
+RegIn2<7>       |ALU_Out<12>    |   17.676|
+RegIn2<7>       |ALU_Out<13>    |   18.419|
+RegIn2<7>       |ALU_Out<14>    |   20.111|
+RegIn2<7>       |ALU_Out<15>    |   20.950|
+RegIn2<7>       |ALU_Out<16>    |   21.808|
+RegIn2<7>       |ALU_Out<17>    |   24.112|
+RegIn2<7>       |ALU_Out<18>    |   24.571|
+RegIn2<7>       |ALU_Out<19>    |   26.528|
+RegIn2<7>       |ALU_Out<20>    |   26.343|
+RegIn2<7>       |ALU_Out<21>    |   27.607|
+RegIn2<7>       |ALU_Out<22>    |   29.964|
+RegIn2<7>       |ALU_Out<23>    |   30.772|
+RegIn2<7>       |ALU_Out<24>    |   31.677|
+RegIn2<7>       |ALU_Out<25>    |   33.208|
+RegIn2<7>       |ALU_Out<26>    |   33.477|
+RegIn2<7>       |ALU_Out<27>    |   34.737|
+RegIn2<7>       |ALU_Out<28>    |   36.032|
+RegIn2<7>       |ALU_Out<29>    |   37.480|
+RegIn2<7>       |ALU_Out<30>    |   38.712|
+RegIn2<7>       |ALU_Out<31>    |   38.335|
+RegIn2<8>       |ALU_Out<8>     |   12.292|
+RegIn2<8>       |ALU_Out<9>     |   13.170|
+RegIn2<8>       |ALU_Out<10>    |   15.356|
+RegIn2<8>       |ALU_Out<11>    |   16.115|
+RegIn2<8>       |ALU_Out<12>    |   16.502|
+RegIn2<8>       |ALU_Out<13>    |   17.245|
+RegIn2<8>       |ALU_Out<14>    |   18.937|
+RegIn2<8>       |ALU_Out<15>    |   19.776|
+RegIn2<8>       |ALU_Out<16>    |   20.634|
+RegIn2<8>       |ALU_Out<17>    |   22.938|
+RegIn2<8>       |ALU_Out<18>    |   23.397|
+RegIn2<8>       |ALU_Out<19>    |   25.354|
+RegIn2<8>       |ALU_Out<20>    |   25.169|
+RegIn2<8>       |ALU_Out<21>    |   26.433|
+RegIn2<8>       |ALU_Out<22>    |   28.790|
+RegIn2<8>       |ALU_Out<23>    |   29.598|
+RegIn2<8>       |ALU_Out<24>    |   30.503|
+RegIn2<8>       |ALU_Out<25>    |   32.034|
+RegIn2<8>       |ALU_Out<26>    |   32.303|
+RegIn2<8>       |ALU_Out<27>    |   33.563|
+RegIn2<8>       |ALU_Out<28>    |   34.858|
+RegIn2<8>       |ALU_Out<29>    |   36.306|
+RegIn2<8>       |ALU_Out<30>    |   37.538|
+RegIn2<8>       |ALU_Out<31>    |   37.161|
+RegIn2<9>       |ALU_Out<9>     |   12.269|
+RegIn2<9>       |ALU_Out<10>    |   13.019|
+RegIn2<9>       |ALU_Out<11>    |   13.778|
+RegIn2<9>       |ALU_Out<12>    |   14.165|
+RegIn2<9>       |ALU_Out<13>    |   14.908|
+RegIn2<9>       |ALU_Out<14>    |   16.600|
+RegIn2<9>       |ALU_Out<15>    |   17.439|
+RegIn2<9>       |ALU_Out<16>    |   18.297|
+RegIn2<9>       |ALU_Out<17>    |   20.601|
+RegIn2<9>       |ALU_Out<18>    |   21.060|
+RegIn2<9>       |ALU_Out<19>    |   23.017|
+RegIn2<9>       |ALU_Out<20>    |   22.832|
+RegIn2<9>       |ALU_Out<21>    |   24.096|
+RegIn2<9>       |ALU_Out<22>    |   26.453|
+RegIn2<9>       |ALU_Out<23>    |   27.261|
+RegIn2<9>       |ALU_Out<24>    |   28.166|
+RegIn2<9>       |ALU_Out<25>    |   29.697|
+RegIn2<9>       |ALU_Out<26>    |   29.966|
+RegIn2<9>       |ALU_Out<27>    |   31.226|
+RegIn2<9>       |ALU_Out<28>    |   32.521|
+RegIn2<9>       |ALU_Out<29>    |   33.969|
+RegIn2<9>       |ALU_Out<30>    |   35.201|
+RegIn2<9>       |ALU_Out<31>    |   34.824|
+RegIn2<10>      |ALU_Out<10>    |   12.204|
+RegIn2<10>      |ALU_Out<11>    |   13.419|
+RegIn2<10>      |ALU_Out<12>    |   13.806|
+RegIn2<10>      |ALU_Out<13>    |   14.549|
+RegIn2<10>      |ALU_Out<14>    |   16.241|
+RegIn2<10>      |ALU_Out<15>    |   17.080|
+RegIn2<10>      |ALU_Out<16>    |   17.938|
+RegIn2<10>      |ALU_Out<17>    |   20.242|
+RegIn2<10>      |ALU_Out<18>    |   20.701|
+RegIn2<10>      |ALU_Out<19>    |   22.658|
+RegIn2<10>      |ALU_Out<20>    |   22.473|
+RegIn2<10>      |ALU_Out<21>    |   23.737|
+RegIn2<10>      |ALU_Out<22>    |   26.094|
+RegIn2<10>      |ALU_Out<23>    |   26.902|
+RegIn2<10>      |ALU_Out<24>    |   27.807|
+RegIn2<10>      |ALU_Out<25>    |   29.338|
+RegIn2<10>      |ALU_Out<26>    |   29.607|
+RegIn2<10>      |ALU_Out<27>    |   30.867|
+RegIn2<10>      |ALU_Out<28>    |   32.162|
+RegIn2<10>      |ALU_Out<29>    |   33.610|
+RegIn2<10>      |ALU_Out<30>    |   34.842|
+RegIn2<10>      |ALU_Out<31>    |   34.465|
+RegIn2<11>      |ALU_Out<11>    |   12.050|
+RegIn2<11>      |ALU_Out<12>    |   13.384|
+RegIn2<11>      |ALU_Out<13>    |   14.127|
+RegIn2<11>      |ALU_Out<14>    |   15.819|
+RegIn2<11>      |ALU_Out<15>    |   16.658|
+RegIn2<11>      |ALU_Out<16>    |   17.516|
+RegIn2<11>      |ALU_Out<17>    |   19.820|
+RegIn2<11>      |ALU_Out<18>    |   20.279|
+RegIn2<11>      |ALU_Out<19>    |   22.236|
+RegIn2<11>      |ALU_Out<20>    |   22.051|
+RegIn2<11>      |ALU_Out<21>    |   23.315|
+RegIn2<11>      |ALU_Out<22>    |   25.672|
+RegIn2<11>      |ALU_Out<23>    |   26.480|
+RegIn2<11>      |ALU_Out<24>    |   27.385|
+RegIn2<11>      |ALU_Out<25>    |   28.916|
+RegIn2<11>      |ALU_Out<26>    |   29.185|
+RegIn2<11>      |ALU_Out<27>    |   30.445|
+RegIn2<11>      |ALU_Out<28>    |   31.740|
+RegIn2<11>      |ALU_Out<29>    |   33.188|
+RegIn2<11>      |ALU_Out<30>    |   34.420|
+RegIn2<11>      |ALU_Out<31>    |   34.043|
+RegIn2<12>      |ALU_Out<12>    |   12.216|
+RegIn2<12>      |ALU_Out<13>    |   13.043|
+RegIn2<12>      |ALU_Out<14>    |   14.735|
+RegIn2<12>      |ALU_Out<15>    |   15.574|
+RegIn2<12>      |ALU_Out<16>    |   16.432|
+RegIn2<12>      |ALU_Out<17>    |   18.736|
+RegIn2<12>      |ALU_Out<18>    |   19.195|
+RegIn2<12>      |ALU_Out<19>    |   21.152|
+RegIn2<12>      |ALU_Out<20>    |   20.967|
+RegIn2<12>      |ALU_Out<21>    |   22.231|
+RegIn2<12>      |ALU_Out<22>    |   24.588|
+RegIn2<12>      |ALU_Out<23>    |   25.396|
+RegIn2<12>      |ALU_Out<24>    |   26.301|
+RegIn2<12>      |ALU_Out<25>    |   27.832|
+RegIn2<12>      |ALU_Out<26>    |   28.101|
+RegIn2<12>      |ALU_Out<27>    |   29.361|
+RegIn2<12>      |ALU_Out<28>    |   30.656|
+RegIn2<12>      |ALU_Out<29>    |   32.104|
+RegIn2<12>      |ALU_Out<30>    |   33.336|
+RegIn2<12>      |ALU_Out<31>    |   32.959|
+RegIn2<13>      |ALU_Out<13>    |   12.425|
+RegIn2<13>      |ALU_Out<14>    |   13.310|
+RegIn2<13>      |ALU_Out<15>    |   14.149|
+RegIn2<13>      |ALU_Out<16>    |   15.007|
+RegIn2<13>      |ALU_Out<17>    |   17.311|
+RegIn2<13>      |ALU_Out<18>    |   17.770|
+RegIn2<13>      |ALU_Out<19>    |   19.727|
+RegIn2<13>      |ALU_Out<20>    |   19.542|
+RegIn2<13>      |ALU_Out<21>    |   20.806|
+RegIn2<13>      |ALU_Out<22>    |   23.163|
+RegIn2<13>      |ALU_Out<23>    |   23.971|
+RegIn2<13>      |ALU_Out<24>    |   24.876|
+RegIn2<13>      |ALU_Out<25>    |   26.407|
+RegIn2<13>      |ALU_Out<26>    |   26.676|
+RegIn2<13>      |ALU_Out<27>    |   27.936|
+RegIn2<13>      |ALU_Out<28>    |   29.231|
+RegIn2<13>      |ALU_Out<29>    |   30.679|
+RegIn2<13>      |ALU_Out<30>    |   31.911|
+RegIn2<13>      |ALU_Out<31>    |   31.534|
+RegIn2<14>      |ALU_Out<14>    |   12.628|
+RegIn2<14>      |ALU_Out<15>    |   14.125|
+RegIn2<14>      |ALU_Out<16>    |   14.983|
+RegIn2<14>      |ALU_Out<17>    |   17.287|
+RegIn2<14>      |ALU_Out<18>    |   17.746|
+RegIn2<14>      |ALU_Out<19>    |   19.703|
+RegIn2<14>      |ALU_Out<20>    |   19.518|
+RegIn2<14>      |ALU_Out<21>    |   20.782|
+RegIn2<14>      |ALU_Out<22>    |   23.139|
+RegIn2<14>      |ALU_Out<23>    |   23.947|
+RegIn2<14>      |ALU_Out<24>    |   24.852|
+RegIn2<14>      |ALU_Out<25>    |   26.383|
+RegIn2<14>      |ALU_Out<26>    |   26.652|
+RegIn2<14>      |ALU_Out<27>    |   27.912|
+RegIn2<14>      |ALU_Out<28>    |   29.207|
+RegIn2<14>      |ALU_Out<29>    |   30.655|
+RegIn2<14>      |ALU_Out<30>    |   31.887|
+RegIn2<14>      |ALU_Out<31>    |   31.510|
+RegIn2<15>      |ALU_Out<15>    |   12.037|
+RegIn2<15>      |ALU_Out<16>    |   13.103|
+RegIn2<15>      |ALU_Out<17>    |   15.407|
+RegIn2<15>      |ALU_Out<18>    |   15.866|
+RegIn2<15>      |ALU_Out<19>    |   17.823|
+RegIn2<15>      |ALU_Out<20>    |   17.638|
+RegIn2<15>      |ALU_Out<21>    |   18.902|
+RegIn2<15>      |ALU_Out<22>    |   21.259|
+RegIn2<15>      |ALU_Out<23>    |   22.067|
+RegIn2<15>      |ALU_Out<24>    |   22.972|
+RegIn2<15>      |ALU_Out<25>    |   24.503|
+RegIn2<15>      |ALU_Out<26>    |   24.772|
+RegIn2<15>      |ALU_Out<27>    |   26.032|
+RegIn2<15>      |ALU_Out<28>    |   27.327|
+RegIn2<15>      |ALU_Out<29>    |   28.775|
+RegIn2<15>      |ALU_Out<30>    |   30.007|
+RegIn2<15>      |ALU_Out<31>    |   29.630|
+RegIn2<16>      |ALU_Out<16>    |   12.183|
+RegIn2<16>      |ALU_Out<17>    |   13.793|
+RegIn2<16>      |ALU_Out<18>    |   14.252|
+RegIn2<16>      |ALU_Out<19>    |   16.209|
+RegIn2<16>      |ALU_Out<20>    |   16.024|
+RegIn2<16>      |ALU_Out<21>    |   17.288|
+RegIn2<16>      |ALU_Out<22>    |   19.645|
+RegIn2<16>      |ALU_Out<23>    |   20.453|
+RegIn2<16>      |ALU_Out<24>    |   21.358|
+RegIn2<16>      |ALU_Out<25>    |   22.889|
+RegIn2<16>      |ALU_Out<26>    |   23.158|
+RegIn2<16>      |ALU_Out<27>    |   24.418|
+RegIn2<16>      |ALU_Out<28>    |   25.713|
+RegIn2<16>      |ALU_Out<29>    |   27.161|
+RegIn2<16>      |ALU_Out<30>    |   28.393|
+RegIn2<16>      |ALU_Out<31>    |   28.016|
+RegIn2<17>      |ALU_Out<17>    |   11.730|
+RegIn2<17>      |ALU_Out<18>    |   12.453|
+RegIn2<17>      |ALU_Out<19>    |   14.410|
+RegIn2<17>      |ALU_Out<20>    |   14.225|
+RegIn2<17>      |ALU_Out<21>    |   15.489|
+RegIn2<17>      |ALU_Out<22>    |   17.846|
+RegIn2<17>      |ALU_Out<23>    |   18.654|
+RegIn2<17>      |ALU_Out<24>    |   19.559|
+RegIn2<17>      |ALU_Out<25>    |   21.090|
+RegIn2<17>      |ALU_Out<26>    |   21.359|
+RegIn2<17>      |ALU_Out<27>    |   22.619|
+RegIn2<17>      |ALU_Out<28>    |   23.914|
+RegIn2<17>      |ALU_Out<29>    |   25.362|
+RegIn2<17>      |ALU_Out<30>    |   26.594|
+RegIn2<17>      |ALU_Out<31>    |   26.217|
+RegIn2<18>      |ALU_Out<18>    |   11.795|
+RegIn2<18>      |ALU_Out<19>    |   13.426|
+RegIn2<18>      |ALU_Out<20>    |   13.241|
+RegIn2<18>      |ALU_Out<21>    |   14.505|
+RegIn2<18>      |ALU_Out<22>    |   16.862|
+RegIn2<18>      |ALU_Out<23>    |   17.670|
+RegIn2<18>      |ALU_Out<24>    |   18.575|
+RegIn2<18>      |ALU_Out<25>    |   20.106|
+RegIn2<18>      |ALU_Out<26>    |   20.375|
+RegIn2<18>      |ALU_Out<27>    |   21.635|
+RegIn2<18>      |ALU_Out<28>    |   22.930|
+RegIn2<18>      |ALU_Out<29>    |   24.378|
+RegIn2<18>      |ALU_Out<30>    |   25.610|
+RegIn2<18>      |ALU_Out<31>    |   25.233|
+RegIn2<19>      |ALU_Out<19>    |   12.817|
+RegIn2<19>      |ALU_Out<20>    |   11.611|
+RegIn2<19>      |ALU_Out<21>    |   12.875|
+RegIn2<19>      |ALU_Out<22>    |   15.232|
+RegIn2<19>      |ALU_Out<23>    |   16.040|
+RegIn2<19>      |ALU_Out<24>    |   16.945|
+RegIn2<19>      |ALU_Out<25>    |   18.476|
+RegIn2<19>      |ALU_Out<26>    |   18.745|
+RegIn2<19>      |ALU_Out<27>    |   20.005|
+RegIn2<19>      |ALU_Out<28>    |   21.300|
+RegIn2<19>      |ALU_Out<29>    |   22.748|
+RegIn2<19>      |ALU_Out<30>    |   23.980|
+RegIn2<19>      |ALU_Out<31>    |   23.603|
+RegIn2<20>      |ALU_Out<20>    |   11.076|
+RegIn2<20>      |ALU_Out<21>    |   12.607|
+RegIn2<20>      |ALU_Out<22>    |   14.964|
+RegIn2<20>      |ALU_Out<23>    |   15.772|
+RegIn2<20>      |ALU_Out<24>    |   16.677|
+RegIn2<20>      |ALU_Out<25>    |   18.208|
+RegIn2<20>      |ALU_Out<26>    |   18.477|
+RegIn2<20>      |ALU_Out<27>    |   19.737|
+RegIn2<20>      |ALU_Out<28>    |   21.032|
+RegIn2<20>      |ALU_Out<29>    |   22.480|
+RegIn2<20>      |ALU_Out<30>    |   23.712|
+RegIn2<20>      |ALU_Out<31>    |   23.335|
+RegIn2<21>      |ALU_Out<21>    |   12.105|
+RegIn2<21>      |ALU_Out<22>    |   13.709|
+RegIn2<21>      |ALU_Out<23>    |   14.517|
+RegIn2<21>      |ALU_Out<24>    |   15.422|
+RegIn2<21>      |ALU_Out<25>    |   16.953|
+RegIn2<21>      |ALU_Out<26>    |   17.222|
+RegIn2<21>      |ALU_Out<27>    |   18.482|
+RegIn2<21>      |ALU_Out<28>    |   19.777|
+RegIn2<21>      |ALU_Out<29>    |   21.225|
+RegIn2<21>      |ALU_Out<30>    |   22.457|
+RegIn2<21>      |ALU_Out<31>    |   22.080|
+RegIn2<22>      |ALU_Out<22>    |   11.879|
+RegIn2<22>      |ALU_Out<23>    |   12.981|
+RegIn2<22>      |ALU_Out<24>    |   13.886|
+RegIn2<22>      |ALU_Out<25>    |   15.417|
+RegIn2<22>      |ALU_Out<26>    |   15.686|
+RegIn2<22>      |ALU_Out<27>    |   16.946|
+RegIn2<22>      |ALU_Out<28>    |   18.241|
+RegIn2<22>      |ALU_Out<29>    |   19.689|
+RegIn2<22>      |ALU_Out<30>    |   20.921|
+RegIn2<22>      |ALU_Out<31>    |   20.544|
+RegIn2<23>      |ALU_Out<23>    |   13.802|
+RegIn2<23>      |ALU_Out<24>    |   13.953|
+RegIn2<23>      |ALU_Out<25>    |   15.484|
+RegIn2<23>      |ALU_Out<26>    |   15.753|
+RegIn2<23>      |ALU_Out<27>    |   17.013|
+RegIn2<23>      |ALU_Out<28>    |   18.308|
+RegIn2<23>      |ALU_Out<29>    |   19.756|
+RegIn2<23>      |ALU_Out<30>    |   20.988|
+RegIn2<23>      |ALU_Out<31>    |   20.611|
+RegIn2<24>      |ALU_Out<24>    |   12.115|
+RegIn2<24>      |ALU_Out<25>    |   13.464|
+RegIn2<24>      |ALU_Out<26>    |   13.733|
+RegIn2<24>      |ALU_Out<27>    |   14.993|
+RegIn2<24>      |ALU_Out<28>    |   16.288|
+RegIn2<24>      |ALU_Out<29>    |   17.736|
+RegIn2<24>      |ALU_Out<30>    |   18.968|
+RegIn2<24>      |ALU_Out<31>    |   18.591|
+RegIn2<25>      |ALU_Out<25>    |   11.633|
+RegIn2<25>      |ALU_Out<26>    |   12.058|
+RegIn2<25>      |ALU_Out<27>    |   13.318|
+RegIn2<25>      |ALU_Out<28>    |   14.613|
+RegIn2<25>      |ALU_Out<29>    |   16.061|
+RegIn2<25>      |ALU_Out<30>    |   17.293|
+RegIn2<25>      |ALU_Out<31>    |   16.916|
+RegIn2<26>      |ALU_Out<26>    |    9.789|
+RegIn2<26>      |ALU_Out<27>    |   12.306|
+RegIn2<26>      |ALU_Out<28>    |   13.601|
+RegIn2<26>      |ALU_Out<29>    |   15.049|
+RegIn2<26>      |ALU_Out<30>    |   16.281|
+RegIn2<26>      |ALU_Out<31>    |   15.904|
+RegIn2<27>      |ALU_Out<27>    |   10.911|
+RegIn2<27>      |ALU_Out<28>    |   11.755|
+RegIn2<27>      |ALU_Out<29>    |   13.203|
+RegIn2<27>      |ALU_Out<30>    |   14.435|
+RegIn2<27>      |ALU_Out<31>    |   14.058|
+RegIn2<28>      |ALU_Out<28>    |   10.763|
+RegIn2<28>      |ALU_Out<29>    |   12.575|
+RegIn2<28>      |ALU_Out<30>    |   13.807|
+RegIn2<28>      |ALU_Out<31>    |   13.430|
+RegIn2<29>      |ALU_Out<29>    |   11.255|
+RegIn2<29>      |ALU_Out<30>    |   12.305|
+RegIn2<29>      |ALU_Out<31>    |   11.928|
+RegIn2<30>      |ALU_Out<30>    |   10.513|
+RegIn2<30>      |ALU_Out<31>    |   10.647|
+RegIn2<31>      |ALU_Out<31>    |   11.184|
+SignExtendIn<0> |ALU_Out<0>     |    8.913|
+SignExtendIn<0> |ALU_Out<1>     |   10.091|
+SignExtendIn<0> |ALU_Out<2>     |   11.232|
+SignExtendIn<0> |ALU_Out<3>     |   14.184|
+SignExtendIn<0> |ALU_Out<4>     |   16.412|
+SignExtendIn<0> |ALU_Out<5>     |   17.202|
+SignExtendIn<0> |ALU_Out<6>     |   17.503|
+SignExtendIn<0> |ALU_Out<7>     |   18.633|
+SignExtendIn<0> |ALU_Out<8>     |   20.681|
+SignExtendIn<0> |ALU_Out<9>     |   20.735|
+SignExtendIn<0> |ALU_Out<10>    |   22.921|
+SignExtendIn<0> |ALU_Out<11>    |   23.680|
+SignExtendIn<0> |ALU_Out<12>    |   24.067|
+SignExtendIn<0> |ALU_Out<13>    |   24.810|
+SignExtendIn<0> |ALU_Out<14>    |   26.502|
+SignExtendIn<0> |ALU_Out<15>    |   27.341|
+SignExtendIn<0> |ALU_Out<16>    |   28.199|
+SignExtendIn<0> |ALU_Out<17>    |   30.503|
+SignExtendIn<0> |ALU_Out<18>    |   30.962|
+SignExtendIn<0> |ALU_Out<19>    |   32.919|
+SignExtendIn<0> |ALU_Out<20>    |   32.734|
+SignExtendIn<0> |ALU_Out<21>    |   33.998|
+SignExtendIn<0> |ALU_Out<22>    |   36.355|
+SignExtendIn<0> |ALU_Out<23>    |   37.163|
+SignExtendIn<0> |ALU_Out<24>    |   38.068|
+SignExtendIn<0> |ALU_Out<25>    |   39.599|
+SignExtendIn<0> |ALU_Out<26>    |   39.868|
+SignExtendIn<0> |ALU_Out<27>    |   41.128|
+SignExtendIn<0> |ALU_Out<28>    |   42.423|
+SignExtendIn<0> |ALU_Out<29>    |   43.871|
+SignExtendIn<0> |ALU_Out<30>    |   45.103|
+SignExtendIn<0> |ALU_Out<31>    |   44.726|
+SignExtendIn<1> |ALU_Out<1>     |   10.174|
+SignExtendIn<1> |ALU_Out<2>     |   11.707|
+SignExtendIn<1> |ALU_Out<3>     |   14.659|
+SignExtendIn<1> |ALU_Out<4>     |   16.887|
+SignExtendIn<1> |ALU_Out<5>     |   17.677|
+SignExtendIn<1> |ALU_Out<6>     |   17.978|
+SignExtendIn<1> |ALU_Out<7>     |   19.108|
+SignExtendIn<1> |ALU_Out<8>     |   21.156|
+SignExtendIn<1> |ALU_Out<9>     |   21.210|
+SignExtendIn<1> |ALU_Out<10>    |   23.396|
+SignExtendIn<1> |ALU_Out<11>    |   24.155|
+SignExtendIn<1> |ALU_Out<12>    |   24.542|
+SignExtendIn<1> |ALU_Out<13>    |   25.285|
+SignExtendIn<1> |ALU_Out<14>    |   26.977|
+SignExtendIn<1> |ALU_Out<15>    |   27.816|
+SignExtendIn<1> |ALU_Out<16>    |   28.674|
+SignExtendIn<1> |ALU_Out<17>    |   30.978|
+SignExtendIn<1> |ALU_Out<18>    |   31.437|
+SignExtendIn<1> |ALU_Out<19>    |   33.394|
+SignExtendIn<1> |ALU_Out<20>    |   33.209|
+SignExtendIn<1> |ALU_Out<21>    |   34.473|
+SignExtendIn<1> |ALU_Out<22>    |   36.830|
+SignExtendIn<1> |ALU_Out<23>    |   37.638|
+SignExtendIn<1> |ALU_Out<24>    |   38.543|
+SignExtendIn<1> |ALU_Out<25>    |   40.074|
+SignExtendIn<1> |ALU_Out<26>    |   40.343|
+SignExtendIn<1> |ALU_Out<27>    |   41.603|
+SignExtendIn<1> |ALU_Out<28>    |   42.898|
+SignExtendIn<1> |ALU_Out<29>    |   44.346|
+SignExtendIn<1> |ALU_Out<30>    |   45.578|
+SignExtendIn<1> |ALU_Out<31>    |   45.201|
+SignExtendIn<2> |ALU_Out<2>     |   10.274|
+SignExtendIn<2> |ALU_Out<3>     |   11.194|
+SignExtendIn<2> |ALU_Out<4>     |   13.422|
+SignExtendIn<2> |ALU_Out<5>     |   14.212|
+SignExtendIn<2> |ALU_Out<6>     |   14.513|
+SignExtendIn<2> |ALU_Out<7>     |   15.643|
+SignExtendIn<2> |ALU_Out<8>     |   17.691|
+SignExtendIn<2> |ALU_Out<9>     |   17.745|
+SignExtendIn<2> |ALU_Out<10>    |   19.931|
+SignExtendIn<2> |ALU_Out<11>    |   20.690|
+SignExtendIn<2> |ALU_Out<12>    |   21.077|
+SignExtendIn<2> |ALU_Out<13>    |   21.820|
+SignExtendIn<2> |ALU_Out<14>    |   23.512|
+SignExtendIn<2> |ALU_Out<15>    |   24.351|
+SignExtendIn<2> |ALU_Out<16>    |   25.209|
+SignExtendIn<2> |ALU_Out<17>    |   27.513|
+SignExtendIn<2> |ALU_Out<18>    |   27.972|
+SignExtendIn<2> |ALU_Out<19>    |   29.929|
+SignExtendIn<2> |ALU_Out<20>    |   29.744|
+SignExtendIn<2> |ALU_Out<21>    |   31.008|
+SignExtendIn<2> |ALU_Out<22>    |   33.365|
+SignExtendIn<2> |ALU_Out<23>    |   34.173|
+SignExtendIn<2> |ALU_Out<24>    |   35.078|
+SignExtendIn<2> |ALU_Out<25>    |   36.609|
+SignExtendIn<2> |ALU_Out<26>    |   36.878|
+SignExtendIn<2> |ALU_Out<27>    |   38.138|
+SignExtendIn<2> |ALU_Out<28>    |   39.433|
+SignExtendIn<2> |ALU_Out<29>    |   40.881|
+SignExtendIn<2> |ALU_Out<30>    |   42.113|
+SignExtendIn<2> |ALU_Out<31>    |   41.736|
+SignExtendIn<3> |ALU_Out<3>     |   10.442|
+SignExtendIn<3> |ALU_Out<4>     |   11.990|
+SignExtendIn<3> |ALU_Out<5>     |   12.780|
+SignExtendIn<3> |ALU_Out<6>     |   13.081|
+SignExtendIn<3> |ALU_Out<7>     |   14.211|
+SignExtendIn<3> |ALU_Out<8>     |   16.259|
+SignExtendIn<3> |ALU_Out<9>     |   16.313|
+SignExtendIn<3> |ALU_Out<10>    |   18.499|
+SignExtendIn<3> |ALU_Out<11>    |   19.258|
+SignExtendIn<3> |ALU_Out<12>    |   19.645|
+SignExtendIn<3> |ALU_Out<13>    |   20.388|
+SignExtendIn<3> |ALU_Out<14>    |   22.080|
+SignExtendIn<3> |ALU_Out<15>    |   22.919|
+SignExtendIn<3> |ALU_Out<16>    |   23.777|
+SignExtendIn<3> |ALU_Out<17>    |   26.081|
+SignExtendIn<3> |ALU_Out<18>    |   26.540|
+SignExtendIn<3> |ALU_Out<19>    |   28.497|
+SignExtendIn<3> |ALU_Out<20>    |   28.312|
+SignExtendIn<3> |ALU_Out<21>    |   29.576|
+SignExtendIn<3> |ALU_Out<22>    |   31.933|
+SignExtendIn<3> |ALU_Out<23>    |   32.741|
+SignExtendIn<3> |ALU_Out<24>    |   33.646|
+SignExtendIn<3> |ALU_Out<25>    |   35.177|
+SignExtendIn<3> |ALU_Out<26>    |   35.446|
+SignExtendIn<3> |ALU_Out<27>    |   36.706|
+SignExtendIn<3> |ALU_Out<28>    |   38.001|
+SignExtendIn<3> |ALU_Out<29>    |   39.449|
+SignExtendIn<3> |ALU_Out<30>    |   40.681|
+SignExtendIn<3> |ALU_Out<31>    |   40.304|
+SignExtendIn<4> |ALU_Out<4>     |   11.796|
+SignExtendIn<4> |ALU_Out<5>     |   13.842|
+SignExtendIn<4> |ALU_Out<6>     |   14.143|
+SignExtendIn<4> |ALU_Out<7>     |   15.273|
+SignExtendIn<4> |ALU_Out<8>     |   17.321|
+SignExtendIn<4> |ALU_Out<9>     |   17.375|
+SignExtendIn<4> |ALU_Out<10>    |   19.561|
+SignExtendIn<4> |ALU_Out<11>    |   20.320|
+SignExtendIn<4> |ALU_Out<12>    |   20.707|
+SignExtendIn<4> |ALU_Out<13>    |   21.450|
+SignExtendIn<4> |ALU_Out<14>    |   23.142|
+SignExtendIn<4> |ALU_Out<15>    |   23.981|
+SignExtendIn<4> |ALU_Out<16>    |   24.839|
+SignExtendIn<4> |ALU_Out<17>    |   27.143|
+SignExtendIn<4> |ALU_Out<18>    |   27.602|
+SignExtendIn<4> |ALU_Out<19>    |   29.559|
+SignExtendIn<4> |ALU_Out<20>    |   29.374|
+SignExtendIn<4> |ALU_Out<21>    |   30.638|
+SignExtendIn<4> |ALU_Out<22>    |   32.995|
+SignExtendIn<4> |ALU_Out<23>    |   33.803|
+SignExtendIn<4> |ALU_Out<24>    |   34.708|
+SignExtendIn<4> |ALU_Out<25>    |   36.239|
+SignExtendIn<4> |ALU_Out<26>    |   36.508|
+SignExtendIn<4> |ALU_Out<27>    |   37.768|
+SignExtendIn<4> |ALU_Out<28>    |   39.063|
+SignExtendIn<4> |ALU_Out<29>    |   40.511|
+SignExtendIn<4> |ALU_Out<30>    |   41.743|
+SignExtendIn<4> |ALU_Out<31>    |   41.366|
+SignExtendIn<5> |ALU_Out<5>     |   11.241|
+SignExtendIn<5> |ALU_Out<6>     |   12.154|
+SignExtendIn<5> |ALU_Out<7>     |   13.284|
+SignExtendIn<5> |ALU_Out<8>     |   15.332|
+SignExtendIn<5> |ALU_Out<9>     |   15.386|
+SignExtendIn<5> |ALU_Out<10>    |   17.572|
+SignExtendIn<5> |ALU_Out<11>    |   18.331|
+SignExtendIn<5> |ALU_Out<12>    |   18.718|
+SignExtendIn<5> |ALU_Out<13>    |   19.461|
+SignExtendIn<5> |ALU_Out<14>    |   21.153|
+SignExtendIn<5> |ALU_Out<15>    |   21.992|
+SignExtendIn<5> |ALU_Out<16>    |   22.850|
+SignExtendIn<5> |ALU_Out<17>    |   25.154|
+SignExtendIn<5> |ALU_Out<18>    |   25.613|
+SignExtendIn<5> |ALU_Out<19>    |   27.570|
+SignExtendIn<5> |ALU_Out<20>    |   27.385|
+SignExtendIn<5> |ALU_Out<21>    |   28.649|
+SignExtendIn<5> |ALU_Out<22>    |   31.006|
+SignExtendIn<5> |ALU_Out<23>    |   31.814|
+SignExtendIn<5> |ALU_Out<24>    |   32.719|
+SignExtendIn<5> |ALU_Out<25>    |   34.250|
+SignExtendIn<5> |ALU_Out<26>    |   34.519|
+SignExtendIn<5> |ALU_Out<27>    |   35.779|
+SignExtendIn<5> |ALU_Out<28>    |   37.074|
+SignExtendIn<5> |ALU_Out<29>    |   38.522|
+SignExtendIn<5> |ALU_Out<30>    |   39.754|
+SignExtendIn<5> |ALU_Out<31>    |   39.377|
+SignExtendIn<6> |ALU_Out<6>     |   11.784|
+SignExtendIn<6> |ALU_Out<7>     |   13.375|
+SignExtendIn<6> |ALU_Out<8>     |   15.423|
+SignExtendIn<6> |ALU_Out<9>     |   15.477|
+SignExtendIn<6> |ALU_Out<10>    |   17.663|
+SignExtendIn<6> |ALU_Out<11>    |   18.422|
+SignExtendIn<6> |ALU_Out<12>    |   18.809|
+SignExtendIn<6> |ALU_Out<13>    |   19.552|
+SignExtendIn<6> |ALU_Out<14>    |   21.244|
+SignExtendIn<6> |ALU_Out<15>    |   22.083|
+SignExtendIn<6> |ALU_Out<16>    |   22.941|
+SignExtendIn<6> |ALU_Out<17>    |   25.245|
+SignExtendIn<6> |ALU_Out<18>    |   25.704|
+SignExtendIn<6> |ALU_Out<19>    |   27.661|
+SignExtendIn<6> |ALU_Out<20>    |   27.476|
+SignExtendIn<6> |ALU_Out<21>    |   28.740|
+SignExtendIn<6> |ALU_Out<22>    |   31.097|
+SignExtendIn<6> |ALU_Out<23>    |   31.905|
+SignExtendIn<6> |ALU_Out<24>    |   32.810|
+SignExtendIn<6> |ALU_Out<25>    |   34.341|
+SignExtendIn<6> |ALU_Out<26>    |   34.610|
+SignExtendIn<6> |ALU_Out<27>    |   35.870|
+SignExtendIn<6> |ALU_Out<28>    |   37.165|
+SignExtendIn<6> |ALU_Out<29>    |   38.613|
+SignExtendIn<6> |ALU_Out<30>    |   39.845|
+SignExtendIn<6> |ALU_Out<31>    |   39.468|
+SignExtendIn<7> |ALU_Out<7>     |   12.400|
+SignExtendIn<7> |ALU_Out<8>     |   14.060|
+SignExtendIn<7> |ALU_Out<9>     |   14.114|
+SignExtendIn<7> |ALU_Out<10>    |   16.300|
+SignExtendIn<7> |ALU_Out<11>    |   17.059|
+SignExtendIn<7> |ALU_Out<12>    |   17.446|
+SignExtendIn<7> |ALU_Out<13>    |   18.189|
+SignExtendIn<7> |ALU_Out<14>    |   19.881|
+SignExtendIn<7> |ALU_Out<15>    |   20.720|
+SignExtendIn<7> |ALU_Out<16>    |   21.578|
+SignExtendIn<7> |ALU_Out<17>    |   23.882|
+SignExtendIn<7> |ALU_Out<18>    |   24.341|
+SignExtendIn<7> |ALU_Out<19>    |   26.298|
+SignExtendIn<7> |ALU_Out<20>    |   26.113|
+SignExtendIn<7> |ALU_Out<21>    |   27.377|
+SignExtendIn<7> |ALU_Out<22>    |   29.734|
+SignExtendIn<7> |ALU_Out<23>    |   30.542|
+SignExtendIn<7> |ALU_Out<24>    |   31.447|
+SignExtendIn<7> |ALU_Out<25>    |   32.978|
+SignExtendIn<7> |ALU_Out<26>    |   33.247|
+SignExtendIn<7> |ALU_Out<27>    |   34.507|
+SignExtendIn<7> |ALU_Out<28>    |   35.802|
+SignExtendIn<7> |ALU_Out<29>    |   37.250|
+SignExtendIn<7> |ALU_Out<30>    |   38.482|
+SignExtendIn<7> |ALU_Out<31>    |   38.105|
+SignExtendIn<8> |ALU_Out<8>     |   11.284|
+SignExtendIn<8> |ALU_Out<9>     |   12.162|
+SignExtendIn<8> |ALU_Out<10>    |   14.348|
+SignExtendIn<8> |ALU_Out<11>    |   15.107|
+SignExtendIn<8> |ALU_Out<12>    |   15.494|
+SignExtendIn<8> |ALU_Out<13>    |   16.237|
+SignExtendIn<8> |ALU_Out<14>    |   17.929|
+SignExtendIn<8> |ALU_Out<15>    |   18.768|
+SignExtendIn<8> |ALU_Out<16>    |   19.626|
+SignExtendIn<8> |ALU_Out<17>    |   21.930|
+SignExtendIn<8> |ALU_Out<18>    |   22.389|
+SignExtendIn<8> |ALU_Out<19>    |   24.346|
+SignExtendIn<8> |ALU_Out<20>    |   24.161|
+SignExtendIn<8> |ALU_Out<21>    |   25.425|
+SignExtendIn<8> |ALU_Out<22>    |   27.782|
+SignExtendIn<8> |ALU_Out<23>    |   28.590|
+SignExtendIn<8> |ALU_Out<24>    |   29.495|
+SignExtendIn<8> |ALU_Out<25>    |   31.026|
+SignExtendIn<8> |ALU_Out<26>    |   31.295|
+SignExtendIn<8> |ALU_Out<27>    |   32.555|
+SignExtendIn<8> |ALU_Out<28>    |   33.850|
+SignExtendIn<8> |ALU_Out<29>    |   35.298|
+SignExtendIn<8> |ALU_Out<30>    |   36.530|
+SignExtendIn<8> |ALU_Out<31>    |   36.153|
+SignExtendIn<9> |ALU_Out<9>     |   11.312|
+SignExtendIn<9> |ALU_Out<10>    |   12.062|
+SignExtendIn<9> |ALU_Out<11>    |   12.821|
+SignExtendIn<9> |ALU_Out<12>    |   13.208|
+SignExtendIn<9> |ALU_Out<13>    |   13.951|
+SignExtendIn<9> |ALU_Out<14>    |   15.643|
+SignExtendIn<9> |ALU_Out<15>    |   16.482|
+SignExtendIn<9> |ALU_Out<16>    |   17.340|
+SignExtendIn<9> |ALU_Out<17>    |   19.644|
+SignExtendIn<9> |ALU_Out<18>    |   20.103|
+SignExtendIn<9> |ALU_Out<19>    |   22.060|
+SignExtendIn<9> |ALU_Out<20>    |   21.875|
+SignExtendIn<9> |ALU_Out<21>    |   23.139|
+SignExtendIn<9> |ALU_Out<22>    |   25.496|
+SignExtendIn<9> |ALU_Out<23>    |   26.304|
+SignExtendIn<9> |ALU_Out<24>    |   27.209|
+SignExtendIn<9> |ALU_Out<25>    |   28.740|
+SignExtendIn<9> |ALU_Out<26>    |   29.009|
+SignExtendIn<9> |ALU_Out<27>    |   30.269|
+SignExtendIn<9> |ALU_Out<28>    |   31.564|
+SignExtendIn<9> |ALU_Out<29>    |   33.012|
+SignExtendIn<9> |ALU_Out<30>    |   34.244|
+SignExtendIn<9> |ALU_Out<31>    |   33.867|
+SignExtendIn<10>|ALU_Out<10>    |   12.193|
+SignExtendIn<10>|ALU_Out<11>    |   13.408|
+SignExtendIn<10>|ALU_Out<12>    |   13.795|
+SignExtendIn<10>|ALU_Out<13>    |   14.538|
+SignExtendIn<10>|ALU_Out<14>    |   16.230|
+SignExtendIn<10>|ALU_Out<15>    |   17.069|
+SignExtendIn<10>|ALU_Out<16>    |   17.927|
+SignExtendIn<10>|ALU_Out<17>    |   20.231|
+SignExtendIn<10>|ALU_Out<18>    |   20.690|
+SignExtendIn<10>|ALU_Out<19>    |   22.647|
+SignExtendIn<10>|ALU_Out<20>    |   22.462|
+SignExtendIn<10>|ALU_Out<21>    |   23.726|
+SignExtendIn<10>|ALU_Out<22>    |   26.083|
+SignExtendIn<10>|ALU_Out<23>    |   26.891|
+SignExtendIn<10>|ALU_Out<24>    |   27.796|
+SignExtendIn<10>|ALU_Out<25>    |   29.327|
+SignExtendIn<10>|ALU_Out<26>    |   29.596|
+SignExtendIn<10>|ALU_Out<27>    |   30.856|
+SignExtendIn<10>|ALU_Out<28>    |   32.151|
+SignExtendIn<10>|ALU_Out<29>    |   33.599|
+SignExtendIn<10>|ALU_Out<30>    |   34.831|
+SignExtendIn<10>|ALU_Out<31>    |   34.454|
+SignExtendIn<11>|ALU_Out<11>    |   10.741|
+SignExtendIn<11>|ALU_Out<12>    |   12.075|
+SignExtendIn<11>|ALU_Out<13>    |   12.818|
+SignExtendIn<11>|ALU_Out<14>    |   14.510|
+SignExtendIn<11>|ALU_Out<15>    |   15.349|
+SignExtendIn<11>|ALU_Out<16>    |   16.207|
+SignExtendIn<11>|ALU_Out<17>    |   18.511|
+SignExtendIn<11>|ALU_Out<18>    |   18.970|
+SignExtendIn<11>|ALU_Out<19>    |   20.927|
+SignExtendIn<11>|ALU_Out<20>    |   20.742|
+SignExtendIn<11>|ALU_Out<21>    |   22.006|
+SignExtendIn<11>|ALU_Out<22>    |   24.363|
+SignExtendIn<11>|ALU_Out<23>    |   25.171|
+SignExtendIn<11>|ALU_Out<24>    |   26.076|
+SignExtendIn<11>|ALU_Out<25>    |   27.607|
+SignExtendIn<11>|ALU_Out<26>    |   27.876|
+SignExtendIn<11>|ALU_Out<27>    |   29.136|
+SignExtendIn<11>|ALU_Out<28>    |   30.431|
+SignExtendIn<11>|ALU_Out<29>    |   31.879|
+SignExtendIn<11>|ALU_Out<30>    |   33.111|
+SignExtendIn<11>|ALU_Out<31>    |   32.734|
+SignExtendIn<12>|ALU_Out<12>    |   11.314|
+SignExtendIn<12>|ALU_Out<13>    |   12.141|
+SignExtendIn<12>|ALU_Out<14>    |   13.833|
+SignExtendIn<12>|ALU_Out<15>    |   14.672|
+SignExtendIn<12>|ALU_Out<16>    |   15.530|
+SignExtendIn<12>|ALU_Out<17>    |   17.834|
+SignExtendIn<12>|ALU_Out<18>    |   18.293|
+SignExtendIn<12>|ALU_Out<19>    |   20.250|
+SignExtendIn<12>|ALU_Out<20>    |   20.065|
+SignExtendIn<12>|ALU_Out<21>    |   21.329|
+SignExtendIn<12>|ALU_Out<22>    |   23.686|
+SignExtendIn<12>|ALU_Out<23>    |   24.494|
+SignExtendIn<12>|ALU_Out<24>    |   25.399|
+SignExtendIn<12>|ALU_Out<25>    |   26.930|
+SignExtendIn<12>|ALU_Out<26>    |   27.199|
+SignExtendIn<12>|ALU_Out<27>    |   28.459|
+SignExtendIn<12>|ALU_Out<28>    |   29.754|
+SignExtendIn<12>|ALU_Out<29>    |   31.202|
+SignExtendIn<12>|ALU_Out<30>    |   32.434|
+SignExtendIn<12>|ALU_Out<31>    |   32.057|
+SignExtendIn<13>|ALU_Out<13>    |   10.759|
+SignExtendIn<13>|ALU_Out<14>    |   11.644|
+SignExtendIn<13>|ALU_Out<15>    |   12.483|
+SignExtendIn<13>|ALU_Out<16>    |   13.341|
+SignExtendIn<13>|ALU_Out<17>    |   15.645|
+SignExtendIn<13>|ALU_Out<18>    |   16.104|
+SignExtendIn<13>|ALU_Out<19>    |   18.061|
+SignExtendIn<13>|ALU_Out<20>    |   17.876|
+SignExtendIn<13>|ALU_Out<21>    |   19.140|
+SignExtendIn<13>|ALU_Out<22>    |   21.497|
+SignExtendIn<13>|ALU_Out<23>    |   22.305|
+SignExtendIn<13>|ALU_Out<24>    |   23.210|
+SignExtendIn<13>|ALU_Out<25>    |   24.741|
+SignExtendIn<13>|ALU_Out<26>    |   25.010|
+SignExtendIn<13>|ALU_Out<27>    |   26.270|
+SignExtendIn<13>|ALU_Out<28>    |   27.565|
+SignExtendIn<13>|ALU_Out<29>    |   29.013|
+SignExtendIn<13>|ALU_Out<30>    |   30.245|
+SignExtendIn<13>|ALU_Out<31>    |   29.868|
+SignExtendIn<14>|ALU_Out<14>    |   11.810|
+SignExtendIn<14>|ALU_Out<15>    |   13.307|
+SignExtendIn<14>|ALU_Out<16>    |   14.165|
+SignExtendIn<14>|ALU_Out<17>    |   16.469|
+SignExtendIn<14>|ALU_Out<18>    |   16.928|
+SignExtendIn<14>|ALU_Out<19>    |   18.885|
+SignExtendIn<14>|ALU_Out<20>    |   18.700|
+SignExtendIn<14>|ALU_Out<21>    |   19.964|
+SignExtendIn<14>|ALU_Out<22>    |   22.321|
+SignExtendIn<14>|ALU_Out<23>    |   23.129|
+SignExtendIn<14>|ALU_Out<24>    |   24.034|
+SignExtendIn<14>|ALU_Out<25>    |   25.565|
+SignExtendIn<14>|ALU_Out<26>    |   25.834|
+SignExtendIn<14>|ALU_Out<27>    |   27.094|
+SignExtendIn<14>|ALU_Out<28>    |   28.389|
+SignExtendIn<14>|ALU_Out<29>    |   29.837|
+SignExtendIn<14>|ALU_Out<30>    |   31.069|
+SignExtendIn<14>|ALU_Out<31>    |   30.692|
+SignExtendIn<15>|ALU_Out<15>    |   10.079|
+SignExtendIn<15>|ALU_Out<16>    |   11.145|
+SignExtendIn<15>|ALU_Out<17>    |   13.449|
+SignExtendIn<15>|ALU_Out<18>    |   13.908|
+SignExtendIn<15>|ALU_Out<19>    |   15.865|
+SignExtendIn<15>|ALU_Out<20>    |   15.680|
+SignExtendIn<15>|ALU_Out<21>    |   16.944|
+SignExtendIn<15>|ALU_Out<22>    |   19.301|
+SignExtendIn<15>|ALU_Out<23>    |   20.109|
+SignExtendIn<15>|ALU_Out<24>    |   21.014|
+SignExtendIn<15>|ALU_Out<25>    |   22.545|
+SignExtendIn<15>|ALU_Out<26>    |   22.814|
+SignExtendIn<15>|ALU_Out<27>    |   24.074|
+SignExtendIn<15>|ALU_Out<28>    |   25.369|
+SignExtendIn<15>|ALU_Out<29>    |   26.817|
+SignExtendIn<15>|ALU_Out<30>    |   28.049|
+SignExtendIn<15>|ALU_Out<31>    |   27.672|
+SignExtendIn<16>|ALU_Out<16>    |   11.075|
+SignExtendIn<16>|ALU_Out<17>    |   12.685|
+SignExtendIn<16>|ALU_Out<18>    |   13.144|
+SignExtendIn<16>|ALU_Out<19>    |   15.101|
+SignExtendIn<16>|ALU_Out<20>    |   14.916|
+SignExtendIn<16>|ALU_Out<21>    |   16.180|
+SignExtendIn<16>|ALU_Out<22>    |   18.537|
+SignExtendIn<16>|ALU_Out<23>    |   19.345|
+SignExtendIn<16>|ALU_Out<24>    |   20.250|
+SignExtendIn<16>|ALU_Out<25>    |   21.781|
+SignExtendIn<16>|ALU_Out<26>    |   22.050|
+SignExtendIn<16>|ALU_Out<27>    |   23.310|
+SignExtendIn<16>|ALU_Out<28>    |   24.605|
+SignExtendIn<16>|ALU_Out<29>    |   26.053|
+SignExtendIn<16>|ALU_Out<30>    |   27.285|
+SignExtendIn<16>|ALU_Out<31>    |   26.908|
+SignExtendIn<17>|ALU_Out<17>    |    9.936|
+SignExtendIn<17>|ALU_Out<18>    |   10.659|
+SignExtendIn<17>|ALU_Out<19>    |   12.616|
+SignExtendIn<17>|ALU_Out<20>    |   12.431|
+SignExtendIn<17>|ALU_Out<21>    |   13.695|
+SignExtendIn<17>|ALU_Out<22>    |   16.052|
+SignExtendIn<17>|ALU_Out<23>    |   16.860|
+SignExtendIn<17>|ALU_Out<24>    |   17.765|
+SignExtendIn<17>|ALU_Out<25>    |   19.296|
+SignExtendIn<17>|ALU_Out<26>    |   19.565|
+SignExtendIn<17>|ALU_Out<27>    |   20.825|
+SignExtendIn<17>|ALU_Out<28>    |   22.120|
+SignExtendIn<17>|ALU_Out<29>    |   23.568|
+SignExtendIn<17>|ALU_Out<30>    |   24.800|
+SignExtendIn<17>|ALU_Out<31>    |   24.423|
+SignExtendIn<18>|ALU_Out<18>    |   10.654|
+SignExtendIn<18>|ALU_Out<19>    |   12.285|
+SignExtendIn<18>|ALU_Out<20>    |   12.100|
+SignExtendIn<18>|ALU_Out<21>    |   13.364|
+SignExtendIn<18>|ALU_Out<22>    |   15.721|
+SignExtendIn<18>|ALU_Out<23>    |   16.529|
+SignExtendIn<18>|ALU_Out<24>    |   17.434|
+SignExtendIn<18>|ALU_Out<25>    |   18.965|
+SignExtendIn<18>|ALU_Out<26>    |   19.234|
+SignExtendIn<18>|ALU_Out<27>    |   20.494|
+SignExtendIn<18>|ALU_Out<28>    |   21.789|
+SignExtendIn<18>|ALU_Out<29>    |   23.237|
+SignExtendIn<18>|ALU_Out<30>    |   24.469|
+SignExtendIn<18>|ALU_Out<31>    |   24.092|
+SignExtendIn<19>|ALU_Out<19>    |   11.325|
+SignExtendIn<19>|ALU_Out<20>    |   10.119|
+SignExtendIn<19>|ALU_Out<21>    |   11.383|
+SignExtendIn<19>|ALU_Out<22>    |   13.740|
+SignExtendIn<19>|ALU_Out<23>    |   14.548|
+SignExtendIn<19>|ALU_Out<24>    |   15.453|
+SignExtendIn<19>|ALU_Out<25>    |   16.984|
+SignExtendIn<19>|ALU_Out<26>    |   17.253|
+SignExtendIn<19>|ALU_Out<27>    |   18.513|
+SignExtendIn<19>|ALU_Out<28>    |   19.808|
+SignExtendIn<19>|ALU_Out<29>    |   21.256|
+SignExtendIn<19>|ALU_Out<30>    |   22.488|
+SignExtendIn<19>|ALU_Out<31>    |   22.111|
+SignExtendIn<20>|ALU_Out<20>    |   10.110|
+SignExtendIn<20>|ALU_Out<21>    |   11.641|
+SignExtendIn<20>|ALU_Out<22>    |   13.998|
+SignExtendIn<20>|ALU_Out<23>    |   14.806|
+SignExtendIn<20>|ALU_Out<24>    |   15.711|
+SignExtendIn<20>|ALU_Out<25>    |   17.242|
+SignExtendIn<20>|ALU_Out<26>    |   17.511|
+SignExtendIn<20>|ALU_Out<27>    |   18.771|
+SignExtendIn<20>|ALU_Out<28>    |   20.066|
+SignExtendIn<20>|ALU_Out<29>    |   21.514|
+SignExtendIn<20>|ALU_Out<30>    |   22.746|
+SignExtendIn<20>|ALU_Out<31>    |   22.369|
+SignExtendIn<21>|ALU_Out<21>    |   10.926|
+SignExtendIn<21>|ALU_Out<22>    |   12.530|
+SignExtendIn<21>|ALU_Out<23>    |   13.338|
+SignExtendIn<21>|ALU_Out<24>    |   14.243|
+SignExtendIn<21>|ALU_Out<25>    |   15.774|
+SignExtendIn<21>|ALU_Out<26>    |   16.043|
+SignExtendIn<21>|ALU_Out<27>    |   17.303|
+SignExtendIn<21>|ALU_Out<28>    |   18.598|
+SignExtendIn<21>|ALU_Out<29>    |   20.046|
+SignExtendIn<21>|ALU_Out<30>    |   21.278|
+SignExtendIn<21>|ALU_Out<31>    |   20.901|
+SignExtendIn<22>|ALU_Out<22>    |   10.361|
+SignExtendIn<22>|ALU_Out<23>    |   11.463|
+SignExtendIn<22>|ALU_Out<24>    |   12.368|
+SignExtendIn<22>|ALU_Out<25>    |   13.899|
+SignExtendIn<22>|ALU_Out<26>    |   14.168|
+SignExtendIn<22>|ALU_Out<27>    |   15.428|
+SignExtendIn<22>|ALU_Out<28>    |   16.723|
+SignExtendIn<22>|ALU_Out<29>    |   18.171|
+SignExtendIn<22>|ALU_Out<30>    |   19.403|
+SignExtendIn<22>|ALU_Out<31>    |   19.026|
+SignExtendIn<23>|ALU_Out<23>    |   11.230|
+SignExtendIn<23>|ALU_Out<24>    |   11.381|
+SignExtendIn<23>|ALU_Out<25>    |   12.912|
+SignExtendIn<23>|ALU_Out<26>    |   13.181|
+SignExtendIn<23>|ALU_Out<27>    |   14.441|
+SignExtendIn<23>|ALU_Out<28>    |   15.736|
+SignExtendIn<23>|ALU_Out<29>    |   17.184|
+SignExtendIn<23>|ALU_Out<30>    |   18.416|
+SignExtendIn<23>|ALU_Out<31>    |   18.039|
+SignExtendIn<24>|ALU_Out<24>    |    9.554|
+SignExtendIn<24>|ALU_Out<25>    |   10.903|
+SignExtendIn<24>|ALU_Out<26>    |   11.172|
+SignExtendIn<24>|ALU_Out<27>    |   12.432|
+SignExtendIn<24>|ALU_Out<28>    |   13.727|
+SignExtendIn<24>|ALU_Out<29>    |   15.175|
+SignExtendIn<24>|ALU_Out<30>    |   16.407|
+SignExtendIn<24>|ALU_Out<31>    |   16.030|
+SignExtendIn<25>|ALU_Out<25>    |   10.028|
+SignExtendIn<25>|ALU_Out<26>    |   10.453|
+SignExtendIn<25>|ALU_Out<27>    |   11.713|
+SignExtendIn<25>|ALU_Out<28>    |   13.008|
+SignExtendIn<25>|ALU_Out<29>    |   14.456|
+SignExtendIn<25>|ALU_Out<30>    |   15.688|
+SignExtendIn<25>|ALU_Out<31>    |   15.311|
+SignExtendIn<26>|ALU_Out<26>    |    7.951|
+SignExtendIn<26>|ALU_Out<27>    |   10.468|
+SignExtendIn<26>|ALU_Out<28>    |   11.763|
+SignExtendIn<26>|ALU_Out<29>    |   13.211|
+SignExtendIn<26>|ALU_Out<30>    |   14.443|
+SignExtendIn<26>|ALU_Out<31>    |   14.066|
+SignExtendIn<27>|ALU_Out<27>    |    9.257|
+SignExtendIn<27>|ALU_Out<28>    |   10.101|
+SignExtendIn<27>|ALU_Out<29>    |   11.549|
+SignExtendIn<27>|ALU_Out<30>    |   12.781|
+SignExtendIn<27>|ALU_Out<31>    |   12.404|
+SignExtendIn<28>|ALU_Out<28>    |   10.297|
+SignExtendIn<28>|ALU_Out<29>    |   12.109|
+SignExtendIn<28>|ALU_Out<30>    |   13.341|
+SignExtendIn<28>|ALU_Out<31>    |   12.964|
+SignExtendIn<29>|ALU_Out<29>    |    9.940|
+SignExtendIn<29>|ALU_Out<30>    |   10.990|
+SignExtendIn<29>|ALU_Out<31>    |   10.613|
+SignExtendIn<30>|ALU_Out<30>    |    9.137|
+SignExtendIn<30>|ALU_Out<31>    |    9.240|
+SignExtendIn<31>|ALU_Out<31>    |   10.323|
+----------------+---------------+---------+
+
+
+Analysis completed Thu Oct 06 22:52:51 2016 
+--------------------------------------------------------------------------------
+
+Trace Settings:
+-------------------------
+Trace Settings 
+
+Peak Memory Usage: 180 MB
+
+
+

@@ -1,0 +1,376 @@
+Release 14.7 - xst P.20131013 (lin64)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+--> 
+Parameter TMPDIR set to xst/projnav.tmp
+
+
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.04 secs
+ 
+--> 
+Parameter xsthdpdir set to xst
+
+
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.04 secs
+ 
+--> 
+Reading design: BranchDecider.prj
+
+TABLE OF CONTENTS
+  1) Synthesis Options Summary
+  2) HDL Compilation
+  3) Design Hierarchy Analysis
+  4) HDL Analysis
+  5) HDL Synthesis
+     5.1) HDL Synthesis Report
+  6) Advanced HDL Synthesis
+     6.1) Advanced HDL Synthesis Report
+  7) Low Level Synthesis
+  8) Partition Report
+  9) Final Report
+	9.1) Device utilization summary
+	9.2) Partition Resource Summary
+	9.3) TIMING REPORT
+
+
+=========================================================================
+*                      Synthesis Options Summary                        *
+=========================================================================
+---- Source Parameters
+Input File Name                    : "BranchDecider.prj"
+Input Format                       : mixed
+Ignore Synthesis Constraint File   : NO
+
+---- Target Parameters
+Output File Name                   : "BranchDecider"
+Output Format                      : NGC
+Target Device                      : xc3s500e-4-fg320
+
+---- Source Options
+Top Module Name                    : BranchDecider
+Automatic FSM Extraction           : YES
+FSM Encoding Algorithm             : Auto
+Safe Implementation                : No
+FSM Style                          : LUT
+RAM Extraction                     : Yes
+RAM Style                          : Auto
+ROM Extraction                     : Yes
+Mux Style                          : Auto
+Decoder Extraction                 : YES
+Priority Encoder Extraction        : Yes
+Shift Register Extraction          : YES
+Logical Shifter Extraction         : YES
+XOR Collapsing                     : YES
+ROM Style                          : Auto
+Mux Extraction                     : Yes
+Resource Sharing                   : YES
+Asynchronous To Synchronous        : NO
+Multiplier Style                   : Auto
+Automatic Register Balancing       : No
+
+---- Target Options
+Add IO Buffers                     : YES
+Global Maximum Fanout              : 100000
+Add Generic Clock Buffer(BUFG)     : 24
+Register Duplication               : YES
+Slice Packing                      : YES
+Optimize Instantiated Primitives   : NO
+Use Clock Enable                   : Yes
+Use Synchronous Set                : Yes
+Use Synchronous Reset              : Yes
+Pack IO Registers into IOBs        : Auto
+Equivalent register Removal        : YES
+
+---- General Options
+Optimization Goal                  : Speed
+Optimization Effort                : 1
+Keep Hierarchy                     : No
+Netlist Hierarchy                  : As_Optimized
+RTL Output                         : Yes
+Global Optimization                : AllClockNets
+Read Cores                         : YES
+Write Timing Constraints           : NO
+Cross Clock Analysis               : NO
+Hierarchy Separator                : /
+Bus Delimiter                      : <>
+Case Specifier                     : Maintain
+Slice Utilization Ratio            : 100
+BRAM Utilization Ratio             : 100
+Verilog 2001                       : YES
+Auto BRAM Packing                  : NO
+Slice Utilization Ratio Delta      : 5
+
+=========================================================================
+
+
+=========================================================================
+*                          HDL Compilation                              *
+=========================================================================
+Compiling vhdl file "/home/hossam/Projects/Vhdl/MIPS/Mux1b.vhd" in Library work.
+Architecture behavioral of Entity mux1b is up to date.
+Compiling vhdl file "/home/hossam/Projects/Vhdl/MIPS/MUX32b.vhd" in Library work.
+Architecture behavioral of Entity mux32b is up to date.
+Compiling vhdl file "/home/hossam/Projects/Vhdl/MIPS/FULL_ADDER.vhd" in Library work.
+Architecture arch of Entity full_adder is up to date.
+Compiling vhdl file "/home/hossam/Projects/Vhdl/MIPS/ADD_SUB.vhd" in Library work.
+Architecture arch of Entity add_sub is up to date.
+Compiling vhdl file "/home/hossam/Projects/Vhdl/MIPS/BranchDecider.vhd" in Library work.
+Architecture behavioral of Entity branchdecider is up to date.
+
+=========================================================================
+*                     Design Hierarchy Analysis                         *
+=========================================================================
+Analyzing hierarchy for entity <BranchDecider> in library <work> (architecture <behavioral>).
+
+Analyzing hierarchy for entity <ADD_SUB> in library <work> (architecture <arch>).
+
+Analyzing hierarchy for entity <MUX32b> in library <work> (architecture <behavioral>).
+
+Analyzing hierarchy for entity <Full_adder> in library <work> (architecture <arch>).
+
+Analyzing hierarchy for entity <MUX1b> in library <work> (architecture <behavioral>).
+
+
+=========================================================================
+*                            HDL Analysis                               *
+=========================================================================
+Analyzing Entity <BranchDecider> in library <work> (Architecture <behavioral>).
+Entity <BranchDecider> analyzed. Unit <BranchDecider> generated.
+
+Analyzing Entity <ADD_SUB> in library <work> (Architecture <arch>).
+Entity <ADD_SUB> analyzed. Unit <ADD_SUB> generated.
+
+Analyzing Entity <Full_adder> in library <work> (Architecture <arch>).
+Entity <Full_adder> analyzed. Unit <Full_adder> generated.
+
+Analyzing Entity <MUX32b> in library <work> (Architecture <behavioral>).
+Entity <MUX32b> analyzed. Unit <MUX32b> generated.
+
+Analyzing Entity <MUX1b> in library <work> (Architecture <behavioral>).
+Entity <MUX1b> analyzed. Unit <MUX1b> generated.
+
+
+=========================================================================
+*                           HDL Synthesis                               *
+=========================================================================
+
+Performing bidirectional port resolution...
+
+Synthesizing Unit <Full_adder>.
+    Related source file is "/home/hossam/Projects/Vhdl/MIPS/FULL_ADDER.vhd".
+    Found 1-bit xor3 for signal <S>.
+    Summary:
+	inferred   1 Xor(s).
+Unit <Full_adder> synthesized.
+
+
+Synthesizing Unit <MUX1b>.
+    Related source file is "/home/hossam/Projects/Vhdl/MIPS/Mux1b.vhd".
+Unit <MUX1b> synthesized.
+
+
+Synthesizing Unit <MUX32b>.
+    Related source file is "/home/hossam/Projects/Vhdl/MIPS/MUX32b.vhd".
+Unit <MUX32b> synthesized.
+
+
+Synthesizing Unit <ADD_SUB>.
+    Related source file is "/home/hossam/Projects/Vhdl/MIPS/ADD_SUB.vhd".
+Unit <ADD_SUB> synthesized.
+
+
+Synthesizing Unit <BranchDecider>.
+    Related source file is "/home/hossam/Projects/Vhdl/MIPS/BranchDecider.vhd".
+WARNING:Xst:646 - Signal <adder_cout> is assigned but never used. This unconnected signal will be trimmed during the optimization process.
+Unit <BranchDecider> synthesized.
+
+
+=========================================================================
+HDL Synthesis Report
+
+Macro Statistics
+# Xors                                                 : 32
+ 1-bit xor3                                            : 32
+
+=========================================================================
+
+=========================================================================
+*                       Advanced HDL Synthesis                          *
+=========================================================================
+
+
+=========================================================================
+Advanced HDL Synthesis Report
+
+Macro Statistics
+# Xors                                                 : 32
+ 1-bit xor3                                            : 32
+
+=========================================================================
+
+=========================================================================
+*                         Low Level Synthesis                           *
+=========================================================================
+
+Optimizing unit <BranchDecider> ...
+
+Optimizing unit <ADD_SUB> ...
+
+Mapping all equations...
+Building and optimizing final netlist ...
+Found area constraint ratio of 100 (+ 5) on block BranchDecider, actual ratio is 1.
+
+Final Macro Processing ...
+
+=========================================================================
+Final Register Report
+
+Found no macro
+=========================================================================
+
+=========================================================================
+*                           Partition Report                            *
+=========================================================================
+
+Partition Implementation Status
+-------------------------------
+
+  No Partitions were found in this design.
+
+-------------------------------
+
+=========================================================================
+*                            Final Report                               *
+=========================================================================
+Final Results
+RTL Top Level Output File Name     : BranchDecider.ngr
+Top Level Output File Name         : BranchDecider
+Output Format                      : NGC
+Optimization Goal                  : Speed
+Keep Hierarchy                     : No
+
+Design Statistics
+# IOs                              : 129
+
+Cell Usage :
+# BELS                             : 93
+#      LUT3                        : 28
+#      LUT4                        : 63
+#      MUXF5                       : 2
+# IO Buffers                       : 129
+#      IBUF                        : 97
+#      OBUF                        : 32
+=========================================================================
+
+Device utilization summary:
+---------------------------
+
+Selected Device : 3s500efg320-4 
+
+ Number of Slices:                       53  out of   4656     1%  
+ Number of 4 input LUTs:                 91  out of   9312     0%  
+ Number of IOs:                         129
+ Number of bonded IOBs:                 129  out of    232    55%  
+
+---------------------------
+Partition Resource Summary:
+---------------------------
+
+  No Partitions were found in this design.
+
+---------------------------
+
+
+=========================================================================
+TIMING REPORT
+
+NOTE: THESE TIMING NUMBERS ARE ONLY A SYNTHESIS ESTIMATE.
+      FOR ACCURATE TIMING INFORMATION PLEASE REFER TO THE TRACE REPORT
+      GENERATED AFTER PLACE-and-ROUTE.
+
+Clock Information:
+------------------
+No clock signals found in this design
+
+Asynchronous Control Signals Information:
+----------------------------------------
+No asynchronous control signals found in this design
+
+Timing Summary:
+---------------
+Speed Grade: -4
+
+   Minimum period: No path found
+   Minimum input arrival time before clock: No path found
+   Maximum output required time after clock: No path found
+   Maximum combinational path delay: 41.915ns
+
+Timing Detail:
+--------------
+All values displayed in nanoseconds (ns)
+
+=========================================================================
+Timing constraint: Default path analysis
+  Total number of paths / destination ports: 1127 / 32
+-------------------------------------------------------------------------
+Delay:               41.915ns (Levels of Logic = 33)
+  Source:            PREVIOUS_STAGE<1> (PAD)
+  Destination:       OUTPUT<31> (PAD)
+
+  Data Path: PREVIOUS_STAGE<1> to OUTPUT<31>
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     IBUF:I->O             2   1.218   0.622  PREVIOUS_STAGE_1_IBUF (PREVIOUS_STAGE_1_IBUF)
+     LUT4:I0->O            4   0.704   0.622  adderModule/GEN_ADDER[1].Next_FA/COUT1 (adderModule/Carry<1>)
+     LUT3:I2->O            2   0.704   0.482  adderModule/GEN_ADDER[2].Next_FA/COUT1 (adderModule/Carry<2>)
+     LUT3:I2->O            2   0.704   0.482  adderModule/GEN_ADDER[3].Next_FA/COUT1 (adderModule/Carry<3>)
+     LUT3:I2->O            2   0.704   0.482  adderModule/GEN_ADDER[4].Next_FA/COUT1 (adderModule/Carry<4>)
+     LUT3:I2->O            2   0.704   0.482  adderModule/GEN_ADDER[5].Next_FA/COUT1 (adderModule/Carry<5>)
+     LUT3:I2->O            2   0.704   0.482  adderModule/GEN_ADDER[6].Next_FA/COUT1 (adderModule/Carry<6>)
+     LUT3:I2->O            2   0.704   0.482  adderModule/GEN_ADDER[7].Next_FA/COUT1 (adderModule/Carry<7>)
+     LUT3:I2->O            2   0.704   0.482  adderModule/GEN_ADDER[8].Next_FA/COUT1 (adderModule/Carry<8>)
+     LUT3:I2->O            2   0.704   0.482  adderModule/GEN_ADDER[9].Next_FA/COUT1 (adderModule/Carry<9>)
+     LUT3:I2->O            2   0.704   0.482  adderModule/GEN_ADDER[10].Next_FA/COUT1 (adderModule/Carry<10>)
+     LUT3:I2->O            2   0.704   0.482  adderModule/GEN_ADDER[11].Next_FA/COUT1 (adderModule/Carry<11>)
+     LUT3:I2->O            2   0.704   0.482  adderModule/GEN_ADDER[12].Next_FA/COUT1 (adderModule/Carry<12>)
+     LUT3:I2->O            2   0.704   0.482  adderModule/GEN_ADDER[13].Next_FA/COUT1 (adderModule/Carry<13>)
+     LUT3:I2->O            2   0.704   0.482  adderModule/GEN_ADDER[14].Next_FA/COUT1 (adderModule/Carry<14>)
+     LUT3:I2->O            2   0.704   0.482  adderModule/GEN_ADDER[15].Next_FA/COUT1 (adderModule/Carry<15>)
+     LUT3:I2->O            2   0.704   0.482  adderModule/GEN_ADDER[16].Next_FA/COUT1 (adderModule/Carry<16>)
+     LUT3:I2->O            2   0.704   0.482  adderModule/GEN_ADDER[17].Next_FA/COUT1 (adderModule/Carry<17>)
+     LUT3:I2->O            2   0.704   0.482  adderModule/GEN_ADDER[18].Next_FA/COUT1 (adderModule/Carry<18>)
+     LUT3:I2->O            2   0.704   0.482  adderModule/GEN_ADDER[19].Next_FA/COUT1 (adderModule/Carry<19>)
+     LUT3:I2->O            2   0.704   0.482  adderModule/GEN_ADDER[20].Next_FA/COUT1 (adderModule/Carry<20>)
+     LUT3:I2->O            2   0.704   0.482  adderModule/GEN_ADDER[21].Next_FA/COUT1 (adderModule/Carry<21>)
+     LUT3:I2->O            2   0.704   0.482  adderModule/GEN_ADDER[22].Next_FA/COUT1 (adderModule/Carry<22>)
+     LUT3:I2->O            2   0.704   0.482  adderModule/GEN_ADDER[23].Next_FA/COUT1 (adderModule/Carry<23>)
+     LUT3:I2->O            2   0.704   0.482  adderModule/GEN_ADDER[24].Next_FA/COUT1 (adderModule/Carry<24>)
+     LUT3:I2->O            2   0.704   0.482  adderModule/GEN_ADDER[25].Next_FA/COUT1 (adderModule/Carry<25>)
+     LUT3:I2->O            2   0.704   0.482  adderModule/GEN_ADDER[26].Next_FA/COUT1 (adderModule/Carry<26>)
+     LUT3:I2->O            2   0.704   0.482  adderModule/GEN_ADDER[27].Next_FA/COUT1 (adderModule/Carry<27>)
+     LUT3:I2->O            2   0.704   0.482  adderModule/GEN_ADDER[28].Next_FA/COUT1 (adderModule/Carry<28>)
+     LUT3:I2->O            1   0.704   0.424  adderModule/GEN_ADDER[29].Next_FA/COUT1 (adderModule/Carry<29>)
+     LUT4:I3->O            1   0.704   0.499  muxModule/MUX_gen[31].MUX/Z_SW0 (N60)
+     LUT4:I1->O            1   0.704   0.420  muxModule/MUX_gen[31].MUX/Z (OUTPUT_31_OBUF)
+     OBUF:I->O                 3.272          OUTPUT_31_OBUF (OUTPUT<31>)
+    ----------------------------------------
+    Total                     41.915ns (26.314ns logic, 15.601ns route)
+                                       (62.8% logic, 37.2% route)
+
+=========================================================================
+
+
+Total REAL time to Xst completion: 5.00 secs
+Total CPU time to Xst completion: 4.32 secs
+ 
+--> 
+
+
+Total memory usage is 514160 kilobytes
+
+Number of errors   :    0 (   0 filtered)
+Number of warnings :    1 (   0 filtered)
+Number of infos    :    0 (   0 filtered)
+

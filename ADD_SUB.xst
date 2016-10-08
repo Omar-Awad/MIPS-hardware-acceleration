@@ -1,0 +1,5 @@
+set -tmpdir "/home/hossam/Projects/Vhdl/MIPS/xst/projnav.tmp"
+set -xsthdpdir "/home/hossam/Projects/Vhdl/MIPS/xst"
+elaborate
+-ifn ADD_SUB.prj
+-ifmt mixed
