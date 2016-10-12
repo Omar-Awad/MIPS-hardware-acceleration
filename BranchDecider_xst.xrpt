@@ -1,39 +1,51 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
-<document OS="lin64" product="ISE" version="14.7">
+<document OS="nt64" product="ISE" version="14.7">
 
   <!--The data in this file is primarily intended for consumption by Xilinx tools.
     The structure and the elements are likely to change over the next few releases.
     This means code written to parse this file will need to be revisited each subsequent release.-->
 
-  <application stringID="Xst" timeStamp="Sat Oct  8 21:00:41 2016">
+  <application stringID="Xst" timeStamp="Wed Oct 12 20:53:49 2016">
     <section stringID="User_Env">
       <table stringID="User_EnvVar">
         <column stringID="variable"/>
         <column stringID="value"/>
         <row stringID="row" value="0">
-          <item stringID="variable" value="PATH"/>
-          <item stringID="value" value="/home/hossam/Programs/14.7/ISE_DS/ISE//bin/lin64:/home/hossam/Programs/neovim/build/bin:/home/hossam/Programs/java-jdk/bin:/home/hossam/Programs/android-studio/bin:/home/hossam/.config/composer/vendor/bin:/home/hossam/Programs/popcorn-time:/home/hossam/bin:/usr/local/bin:/usr/bin:/bin:/usr/local/games:/usr/games"/>
+          <item stringID="variable" value="Path"/>
+          <item stringID="value" value="E:\xilinx_new\14.7\ISE_DS\ISE\\lib\nt64;E:\xilinx_new\14.7\ISE_DS\ISE\\bin\nt64;E:\xilinx_new\14.7\ISE_DS\ISE\bin\nt64;E:\xilinx_new\14.7\ISE_DS\ISE\lib\nt64;E:\xilinx_new\14.7\ISE_DS\ISE\..\..\..\DocNav;E:\xilinx_new\14.7\ISE_DS\PlanAhead\bin;E:\xilinx_new\14.7\ISE_DS\EDK\bin\nt64;E:\xilinx_new\14.7\ISE_DS\EDK\lib\nt64;E:\xilinx_new\14.7\ISE_DS\EDK\gnu\microblaze\nt\bin;E:\xilinx_new\14.7\ISE_DS\EDK\gnu\powerpc-eabi\nt\bin;E:\xilinx_new\14.7\ISE_DS\EDK\gnuwin\bin;E:\xilinx_new\14.7\ISE_DS\EDK\gnu\arm\nt\bin;E:\xilinx_new\14.7\ISE_DS\EDK\gnu\microblaze\linux_toolchain\nt64_be\bin;E:\xilinx_new\14.7\ISE_DS\EDK\gnu\microblaze\linux_toolchain\nt64_le\bin;E:\xilinx_new\14.7\ISE_DS\common\bin\nt64;E:\xilinx_new\14.7\ISE_DS\common\lib\nt64;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\ProgramData\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\sqlite;E:\Program Files\MATLAB\R2016a\runtime\win64;E:\Program Files\MATLAB\R2016a\bin;E:\Program Files\MATLAB\R2016a\polyspace\bin;C:\Program Files\Git\cmd"/>
         </row>
         <row stringID="row" value="1">
-          <item stringID="variable" value="XILINX"/>
-          <item stringID="value" value="/home/hossam/Programs/14.7/ISE_DS/ISE/"/>
+          <item stringID="variable" value="PATHEXT"/>
+          <item stringID="value" value=".COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC"/>
         </row>
         <row stringID="row" value="2">
-          <item stringID="variable" value="LD_LIBRARY_PATH"/>
-          <item stringID="value" value="/home/hossam/Programs/14.7/ISE_DS/ISE//lib/lin64"/>
+          <item stringID="variable" value="XILINX"/>
+          <item stringID="value" value="E:\xilinx_new\14.7\ISE_DS\ISE\"/>
+        </row>
+        <row stringID="row" value="3">
+          <item stringID="variable" value="XILINX_DSP"/>
+          <item stringID="value" value="E:\xilinx_new\14.7\ISE_DS\ISE"/>
+        </row>
+        <row stringID="row" value="4">
+          <item stringID="variable" value="XILINX_EDK"/>
+          <item stringID="value" value="E:\xilinx_new\14.7\ISE_DS\EDK"/>
+        </row>
+        <row stringID="row" value="5">
+          <item stringID="variable" value="XILINX_PLANAHEAD"/>
+          <item stringID="value" value="E:\xilinx_new\14.7\ISE_DS\PlanAhead"/>
         </row>
       </table>
       <item stringID="User_EnvOs" value="OS Information">
-        <item stringID="User_EnvOsname" value="Deepin"/>
-        <item stringID="User_EnvOsrelease" value="Deepin 15.2"/>
+        <item stringID="User_EnvOsname" value="Microsoft , 64-bit"/>
+        <item stringID="User_EnvOsrelease" value="major release  (build 9200)"/>
       </item>
-      <item stringID="User_EnvHost" value="hossam-pc"/>
+      <item stringID="User_EnvHost" value="DESKTOP-2TEGJ57"/>
       <table stringID="User_EnvCpu">
         <column stringID="arch"/>
         <column stringID="speed"/>
         <row stringID="row" value="0">
-          <item stringID="arch" value="Intel(R) Core(TM) i7-5500U CPU @ 2.40GHz"/>
-          <item stringID="speed" value="2975.062 MHz"/>
+          <item stringID="arch" value="Intel(R) Core(TM) i5-3337U CPU @ 1.80GHz"/>
+          <item stringID="speed" value="1796 MHz"/>
         </row>
       </table>
     </section>
@@ -118,26 +130,29 @@
         <item stringID="XST_KEEP_HIERARCHY" value="No"/>
       </section>
       <section stringID="XST_DESIGN_STATISTICS">
-        <item stringID="XST_IOS" value="129"/>
+        <item stringID="XST_IOS" value="128"/>
       </section>
       <section stringID="XST_CELL_USAGE">
-        <item dataType="int" stringID="XST_BELS" value="93">
-          <item dataType="int" stringID="XST_LUT3" value="28"/>
-          <item dataType="int" stringID="XST_LUT4" value="63"/>
-          <item dataType="int" stringID="XST_MUXF5" value="2"/>
+        <item dataType="int" stringID="XST_BELS" value="82">
+          <item dataType="int" stringID="XST_GND" value="1"/>
+          <item dataType="int" stringID="XST_LUT3" value="30"/>
+          <item dataType="int" stringID="XST_LUT4" value="41"/>
+          <item dataType="int" stringID="XST_MUXCY" value="8"/>
+          <item dataType="int" stringID="XST_MUXF5" value="1"/>
+          <item dataType="int" stringID="XST_VCC" value="1"/>
         </item>
-        <item dataType="int" stringID="XST_IO_BUFFERS" value="129">
-          <item dataType="int" stringID="XST_IBUF" value="97"/>
+        <item dataType="int" stringID="XST_IO_BUFFERS" value="128">
+          <item dataType="int" stringID="XST_IBUF" value="96"/>
           <item dataType="int" stringID="XST_OBUF" value="32"/>
         </item>
       </section>
     </section>
     <section stringID="XST_DEVICE_UTILIZATION_SUMMARY">
       <item stringID="XST_SELECTED_DEVICE" value="3s500efg320-4"/>
-      <item AVAILABLE="4656" dataType="int" label="Number of Slices" stringID="XST_NUMBER_OF_SLICES" value="53"/>
-      <item AVAILABLE="9312" dataType="int" label="Number of 4 input LUTs" stringID="XST_NUMBER_OF_4_INPUT_LUTS" value="91"/>
-      <item dataType="int" label="Number of IOs" stringID="XST_NUMBER_OF_IOS" value="129"/>
-      <item AVAILABLE="232" dataType="int" label="Number of bonded IOBs" stringID="XST_NUMBER_OF_BONDED_IOBS" value="129"/>
+      <item AVAILABLE="4656" dataType="int" label="Number of Slices" stringID="XST_NUMBER_OF_SLICES" value="40"/>
+      <item AVAILABLE="9312" dataType="int" label="Number of 4 input LUTs" stringID="XST_NUMBER_OF_4_INPUT_LUTS" value="71"/>
+      <item dataType="int" label="Number of IOs" stringID="XST_NUMBER_OF_IOS" value="128"/>
+      <item AVAILABLE="232" dataType="int" label="Number of bonded IOBs" stringID="XST_NUMBER_OF_BONDED_IOBS" value="128"/>
     </section>
     <section stringID="XST_PARTITION_RESOURCE_SUMMARY">
       <section stringID="XST_NO_PARTITIONS_WERE_FOUND_IN_THIS_DESIGN"/>

@@ -51,12 +51,12 @@ BEGIN
    begin		
      
 	  
-	  NEXT_PC <= x"00000000";
-	  SIGN_EXTEND <= x"00000001";
+	  NEXT_PC <= x"00001000";
+	  SIGN_EXTEND <= x"00900001";
 	  A <= x"00000011";
 wait for 50ns;
-	  NEXT_PC <= x"00000000";
-	  SIGN_EXTEND <= x"00000001";
+	  NEXT_PC <= x"44000000";
+	  SIGN_EXTEND <= x"00090001";
 	  A <= x"00000000";  
 	  
 	  

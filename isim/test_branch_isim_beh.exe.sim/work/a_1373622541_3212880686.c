@@ -10,7 +10,7 @@
 /*  \___\/\___\                                                    */
 /***********************************************************************/
 
-/* This file is designed for use with ISim build 0xa0883be4 */
+/* This file is designed for use with ISim build 0x7708f090 */
 
 #define XSI_HIDE_SYMBOL_SPEC true
 #include "xsi.h"
@@ -21,7 +21,7 @@
 #include <malloc.h>
 #define alloca _alloca
 #endif
-static const char *ng0 = "D:/Xilinx workspace/MIPS_Github/BranchDecider.vhd";
+static const char *ng0 = "C:/My Stuff/Mips github/BranchDecider.vhd";
 
 
 
@@ -48,7 +48,7 @@ static void work_a_1373622541_3212880686_p_0(char *t0)
 LAB0:    xsi_set_current_line(38, ng0);
     t1 = (t0 + 1352U);
     t2 = *((char **)t1);
-    t1 = (t0 + 6916);
+    t1 = (t0 + 6788);
     t4 = 1;
     if (32U == 32U)
         goto LAB5;
@@ -64,7 +64,7 @@ LAB11:    t13 = (t0 + 4256);
     t15 = *((char **)t14);
     t16 = (t15 + 56U);
     t17 = *((char **)t16);
-    *((unsigned char *)t17) = (unsigned char)2;
+    *((unsigned char *)t17) = (unsigned char)3;
     xsi_driver_first_trans_fast(t13);
 
 LAB2:    t18 = (t0 + 4160);
@@ -76,7 +76,7 @@ LAB3:    t8 = (t0 + 4256);
     t10 = *((char **)t9);
     t11 = (t10 + 56U);
     t12 = *((char **)t11);
-    *((unsigned char *)t12) = (unsigned char)3;
+    *((unsigned char *)t12) = (unsigned char)2;
     xsi_driver_first_trans_fast(t8);
     goto LAB2;
 

@@ -1,58 +1,28 @@
-V3 41
-FL /home/hossam/Projects/Vhdl/MIPS/ADD_SUB.vhd 2016/10/06.20:17:57 P.28xd
-FL /home/hossam/Projects/Vhdl/MIPS/ALU.vhd 2016/10/06.22:51:35 P.28xd
-EN work/ALU 1475952911 FL /home/hossam/Projects/Vhdl/MIPS/ALU.vhd \
-      PB ieee/std_logic_1164 1381692176
-AR work/ALU/Behavioral 1475952912 \
-      FL /home/hossam/Projects/Vhdl/MIPS/ALU.vhd EN work/ALU 1475952911 CP MUX32b \
-      CP ADD_SUB CP AND_OR32b
-FL /home/hossam/Projects/Vhdl/MIPS/BranchDecider.vhd 2016/10/08.21:00:22 P.28xd
-FL /home/hossam/Projects/Vhdl/MIPS/FULL_ADDER.vhd 2016/10/06.19:28:33 P.28xd
-FL /home/hossam/Projects/Vhdl/MIPS/Mux1b.vhd 2016/10/08.20:22:37 P.28xd
-FL /home/hossam/Projects/Vhdl/MIPS/MUX32b.vhd 2016/10/08.20:23:14 P.28xd
-FL "C:/My Stuff/MIPS/MIPS/ADD_SUB.vhd" 2016/10/06.20:17:57 P.28xd
-FL "C:/My Stuff/MIPS/MIPS/ALU.vhd" 2016/10/06.22:51:35 P.28xd
-FL "C:/My Stuff/MIPS/MIPS/AND_OR.vhd" 2016/10/06.22:20:54 P.28xd
-FL "C:/My Stuff/MIPS/MIPS/AND_OR32b.vhd" 2016/10/06.22:26:29 P.28xd
-EN work/AND_OR32b 1475787121 FL "C:/My Stuff/MIPS/MIPS/AND_OR32b.vhd" \
-      PB ieee/std_logic_1164 1381692176
-AR work/AND_OR32b/Behavioral 1475787122 \
-      FL "C:/My Stuff/MIPS/MIPS/AND_OR32b.vhd" EN work/AND_OR32b 1475787121 \
-      CP AND_OR
-FL "C:/My Stuff/MIPS/MIPS/FULL_ADDER.vhd" 2016/10/06.19:28:33 P.28xd
-FL "C:/My Stuff/MIPS/MIPS/Mux1b.vhd" 2016/10/06.19:28:34 P.28xd
-FL "C:/My Stuff/MIPS/MIPS/MUX32b.vhd" 2016/10/06.20:08:47 P.28xd
-FL "D:/Xilinx workspace/MIPS_Github/ADD_SUB.vhd" 2016/10/12.12:56:06 P.28xd
-EN work/ADD_SUB 1476273324 FL "D:/Xilinx workspace/MIPS_Github/ADD_SUB.vhd" \
+V3 19
+FL "C:/My Stuff/Mips github/ADD_SUB.vhd" 2016/10/06.20:17:57 P.20131013
+EN work/ADD_SUB 1476298436 FL "C:/My Stuff/Mips github/ADD_SUB.vhd" \
       PB ieee/std_logic_1164 1381692176 PB ieee/NUMERIC_STD 1381692181
-AR work/ADD_SUB/arch 1476273325 \
-      FL "D:/Xilinx workspace/MIPS_Github/ADD_SUB.vhd" EN work/ADD_SUB 1476273324 \
+AR work/ADD_SUB/arch 1476298437 \
+      FL "C:/My Stuff/Mips github/ADD_SUB.vhd" EN work/ADD_SUB 1476298436 \
       CP MUX32b CP FULL_ADDER
-FL "D:/Xilinx workspace/MIPS_Github/AND_OR.vhd" 2016/10/12.12:56:06 P.28xd
-EN work/AND_OR 1476270390 FL "D:/Xilinx workspace/MIPS_Github/AND_OR.vhd" \
+FL "C:/My Stuff/Mips github/BranchDecider.vhd" 2016/10/12.20:37:18 P.20131013
+EN work/BranchDecider 1476298438 FL "C:/My Stuff/Mips github/BranchDecider.vhd" \
       PB ieee/std_logic_1164 1381692176
-AR work/AND_OR/Behavioral 1476270391 \
-      FL "D:/Xilinx workspace/MIPS_Github/AND_OR.vhd" EN work/AND_OR 1476270390
-FL "D:/Xilinx workspace/MIPS_Github/BranchDecider.vhd" 2016/10/12.13:54:43 P.28xd
-EN work/BranchDecider 1476273326 \
-      FL "D:/Xilinx workspace/MIPS_Github/BranchDecider.vhd" \
-      PB ieee/std_logic_1164 1381692176
-AR work/BranchDecider/Behavioral 1476273327 \
-      FL "D:/Xilinx workspace/MIPS_Github/BranchDecider.vhd" \
-      EN work/BranchDecider 1476273326 CP ADD_SUB CP MUX32b
-FL "D:/Xilinx workspace/MIPS_Github/FULL_ADDER.vhd" 2016/10/12.12:56:06 P.28xd
-EN work/Full_adder 1476273322 FL "D:/Xilinx workspace/MIPS_Github/FULL_ADDER.vhd" \
+AR work/BranchDecider/Behavioral 1476298439 \
+      FL "C:/My Stuff/Mips github/BranchDecider.vhd" EN work/BranchDecider 1476298438 \
+      CP ADD_SUB CP MUX32b
+FL "C:/My Stuff/Mips github/FULL_ADDER.vhd" 2016/10/12.20:37:18 P.20131013
+EN work/Full_adder 1476298434 FL "C:/My Stuff/Mips github/FULL_ADDER.vhd" \
       PB ieee/std_logic_1164 1381692176 PB ieee/NUMERIC_STD 1381692181
-AR work/Full_adder/arch 1476273323 \
-      FL "D:/Xilinx workspace/MIPS_Github/FULL_ADDER.vhd" EN work/Full_adder 1476273322
-FL "D:/Xilinx workspace/MIPS_Github/Mux1b.vhd" 2016/10/12.12:56:06 P.28xd
-EN work/Mux1b 1476273318 FL "D:/Xilinx workspace/MIPS_Github/Mux1b.vhd" \
+AR work/Full_adder/arch 1476298435 \
+      FL "C:/My Stuff/Mips github/FULL_ADDER.vhd" EN work/Full_adder 1476298434
+FL "C:/My Stuff/Mips github/Mux1b.vhd" 2016/10/12.20:37:18 P.20131013
+EN work/Mux1b 1476298430 FL "C:/My Stuff/Mips github/Mux1b.vhd" \
       PB ieee/std_logic_1164 1381692176
-AR work/Mux1b/Behavioral 1476273319 \
-      FL "D:/Xilinx workspace/MIPS_Github/Mux1b.vhd" EN work/Mux1b 1476273318
-FL "D:/Xilinx workspace/MIPS_Github/MUX32b.vhd" 2016/10/12.12:56:06 P.28xd
-EN work/MUX32b 1476273320 FL "D:/Xilinx workspace/MIPS_Github/MUX32b.vhd" \
+AR work/Mux1b/Behavioral 1476298431 \
+      FL "C:/My Stuff/Mips github/Mux1b.vhd" EN work/Mux1b 1476298430
+FL "C:/My Stuff/Mips github/MUX32b.vhd" 2016/10/12.20:37:18 P.20131013
+EN work/MUX32b 1476298432 FL "C:/My Stuff/Mips github/MUX32b.vhd" \
       PB ieee/std_logic_1164 1381692176
-AR work/MUX32b/Behavioral 1476273321 \
-      FL "D:/Xilinx workspace/MIPS_Github/MUX32b.vhd" EN work/MUX32b 1476273320 \
-      CP MUX1b
+AR work/MUX32b/Behavioral 1476298433 \
+      FL "C:/My Stuff/Mips github/MUX32b.vhd" EN work/MUX32b 1476298432 CP MUX1b

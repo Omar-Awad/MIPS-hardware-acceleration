@@ -1,5 +1,0 @@
-set -tmpdir "D:/Xilinx workspace/MIPS_Github/xst/projnav.tmp"
-set -xsthdpdir "D:/Xilinx workspace/MIPS_Github/xst"
-elaborate
--ifn AND_OR.prj
--ifmt mixed

@@ -10,7 +10,7 @@
 /*  \___\/\___\                                                    */
 /***********************************************************************/
 
-/* This file is designed for use with ISim build 0xa0883be4 */
+/* This file is designed for use with ISim build 0x7708f090 */
 
 #define XSI_HIDE_SYMBOL_SPEC true
 #include "xsi.h"
@@ -21,7 +21,7 @@
 #include <malloc.h>
 #define alloca _alloca
 #endif
-static const char *ng0 = "D:/Xilinx workspace/MIPS_Github/MUX32b.vhd";
+static const char *ng0 = "C:/My Stuff/Mips github/MUX32b.vhd";
 
 
 

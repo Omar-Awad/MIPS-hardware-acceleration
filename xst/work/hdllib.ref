@@ -1,16 +1,10 @@
-AR full_adder arch "D:/Xilinx workspace/MIPS_Github/FULL_ADDER.vhd" sub00/vhpl01 1476273323
-EN mux1b NULL "D:/Xilinx workspace/MIPS_Github/Mux1b.vhd" sub00/vhpl05 1476273318
-AR and_or32b behavioral "C:/My Stuff/MIPS/MIPS/AND_OR32b.vhd" sub00/vhpl11 1475787122
-AR and_or behavioral "D:/Xilinx workspace/MIPS_Github/AND_OR.vhd" sub00/vhpl09 1476270391
-EN and_or NULL "D:/Xilinx workspace/MIPS_Github/AND_OR.vhd" sub00/vhpl08 1476270390
-EN and_or32b NULL "C:/My Stuff/MIPS/MIPS/AND_OR32b.vhd" sub00/vhpl10 1475787121
-AR mux1b behavioral "D:/Xilinx workspace/MIPS_Github/Mux1b.vhd" sub00/vhpl06 1476273319
-EN branchdecider NULL "D:/Xilinx workspace/MIPS_Github/BranchDecider.vhd" sub00/vhpl14 1476273326
-AR mux32b behavioral "D:/Xilinx workspace/MIPS_Github/MUX32b.vhd" sub00/vhpl07 1476273321
-EN full_adder NULL "D:/Xilinx workspace/MIPS_Github/FULL_ADDER.vhd" sub00/vhpl00 1476273322
-AR branchdecider behavioral "D:/Xilinx workspace/MIPS_Github/BranchDecider.vhd" sub00/vhpl15 1476273327
-AR add_sub arch "D:/Xilinx workspace/MIPS_Github/ADD_SUB.vhd" sub00/vhpl03 1476273325
-AR alu behavioral /home/hossam/Projects/Vhdl/MIPS/ALU.vhd sub00/vhpl13 1475952912
-EN mux32b NULL "D:/Xilinx workspace/MIPS_Github/MUX32b.vhd" sub00/vhpl04 1476273320
-EN add_sub NULL "D:/Xilinx workspace/MIPS_Github/ADD_SUB.vhd" sub00/vhpl02 1476273324
-EN alu NULL /home/hossam/Projects/Vhdl/MIPS/ALU.vhd sub00/vhpl12 1475952911
+AR full_adder arch "C:/My Stuff/Mips github/FULL_ADDER.vhd" sub00/vhpl05 1476298435
+EN mux1b NULL "C:/My Stuff/Mips github/Mux1b.vhd" sub00/vhpl00 1476298430
+AR mux1b behavioral "C:/My Stuff/Mips github/Mux1b.vhd" sub00/vhpl01 1476298431
+EN branchdecider NULL "C:/My Stuff/Mips github/BranchDecider.vhd" sub00/vhpl08 1476298438
+AR mux32b behavioral "C:/My Stuff/Mips github/MUX32b.vhd" sub00/vhpl03 1476298433
+EN full_adder NULL "C:/My Stuff/Mips github/FULL_ADDER.vhd" sub00/vhpl04 1476298434
+AR branchdecider behavioral "C:/My Stuff/Mips github/BranchDecider.vhd" sub00/vhpl09 1476298439
+AR add_sub arch "C:/My Stuff/Mips github/ADD_SUB.vhd" sub00/vhpl07 1476298437
+EN mux32b NULL "C:/My Stuff/Mips github/MUX32b.vhd" sub00/vhpl02 1476298432
+EN add_sub NULL "C:/My Stuff/Mips github/ADD_SUB.vhd" sub00/vhpl06 1476298436
