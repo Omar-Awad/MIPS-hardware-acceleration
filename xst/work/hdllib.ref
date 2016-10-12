@@ -1,8 +1,8 @@
 AR full_adder arch /home/hossam/Projects/Vhdl/MIPS/FULL_ADDER.vhd sub00/vhpl01 1475953247
 EN mux1b NULL /home/hossam/Projects/Vhdl/MIPS/Mux1b.vhd sub00/vhpl05 1475953242
 AR and_or32b behavioral "C:/My Stuff/MIPS/MIPS/AND_OR32b.vhd" sub00/vhpl11 1475787122
-AR and_or behavioral "C:/My Stuff/MIPS/MIPS/AND_OR.vhd" sub00/vhpl09 1475787114
-EN and_or NULL "C:/My Stuff/MIPS/MIPS/AND_OR.vhd" sub00/vhpl08 1475787113
+AR and_or behavioral "D:/Xilinx workspace/MIPS_Github/AND_OR.vhd" sub00/vhpl09 1476270391
+EN and_or NULL "D:/Xilinx workspace/MIPS_Github/AND_OR.vhd" sub00/vhpl08 1476270390
 EN and_or32b NULL "C:/My Stuff/MIPS/MIPS/AND_OR32b.vhd" sub00/vhpl10 1475787121
 AR mux1b behavioral /home/hossam/Projects/Vhdl/MIPS/Mux1b.vhd sub00/vhpl06 1475953243
 EN branchdecider NULL /home/hossam/Projects/Vhdl/MIPS/BranchDecider.vhd sub00/vhpl14 1475953250

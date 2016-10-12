@@ -15,7 +15,7 @@
 
   <!--                                                          -->
 
-  <!-- Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved. -->
+  <!-- Copyright (c) 1995-2012 Xilinx, Inc.  All rights reserved. -->
 
   <version xmlns="http://www.xilinx.com/XMLSchema">11.1</version>
 
@@ -80,6 +80,9 @@
     <file xil_pn:fileType="FILE_FITTER_REPORT" xil_pn:name="ALU_summary.xml"/>
     <file xil_pn:fileType="FILE_WEBTALK" xil_pn:name="ALU_usage.xml"/>
     <file xil_pn:fileType="FILE_XRPT" xil_pn:name="ALU_xst.xrpt"/>
+    <file xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="AND_OR.prj"/>
+    <file xil_pn:fileType="FILE_XST_STX" xil_pn:name="AND_OR.stx"/>
+    <file xil_pn:fileType="FILE_XST" xil_pn:name="AND_OR.xst"/>
     <file xil_pn:fileType="FILE_CMD_LOG" xil_pn:name="BranchDecider.cmd_log"/>
     <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_LSO" xil_pn:name="BranchDecider.lso"/>
     <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGC" xil_pn:name="BranchDecider.ngc"/>
@@ -135,7 +138,9 @@
       <status xil_pn:value="WarningsGenerated"/>
       <status xil_pn:value="ReadyToRun"/>
       <status xil_pn:value="OutOfDateForInputs"/>
+      <status xil_pn:value="OutOfDateForOutputs"/>
       <status xil_pn:value="InputChanged"/>
+      <status xil_pn:value="OutputChanged"/>
       <outfile xil_pn:name=".lso"/>
       <outfile xil_pn:name="ADD_SUB.ngr"/>
       <outfile xil_pn:name="BranchDecider.lso"/>
