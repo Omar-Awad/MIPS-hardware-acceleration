@@ -35,7 +35,9 @@ architecture Behavioral of BranchDecider is
 	signal SEL: STD_LOGIC;
 	
 begin	
-		SEL <= '1' WHEN (A = x"0000000") else '0';		
+		SEL <= '1' WHEN (A = x"0000000") else '0';	
+
+		
 		adderModule: ADD_SUB port map(NEXT_PC, SIGN_EXTEND, adder_operation , adder_cout,adder_output);
 		muxModule: MUX32b port map (adder_output, NEXT_PC, SEL , result);
 		OUTPUT <= result;
