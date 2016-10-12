@@ -1,0 +1,5 @@
+vhdl work "D:\Xilinx workspace\MIPS_Github\Mux1b.vhd"
+vhdl work "D:\Xilinx workspace\MIPS_Github\MUX32b.vhd"
+vhdl work "D:\Xilinx workspace\MIPS_Github\FULL_ADDER.vhd"
+vhdl work "D:\Xilinx workspace\MIPS_Github\ADD_SUB.vhd"
+vhdl work "D:\Xilinx workspace\MIPS_Github\BranchDecider.vhd"

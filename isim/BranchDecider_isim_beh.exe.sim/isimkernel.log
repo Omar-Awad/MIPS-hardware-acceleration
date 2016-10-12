@@ -1,0 +1,28 @@
+Command line:
+   BranchDecider_isim_beh.exe
+     -simmode  gui
+     -simrunnum  0
+     -socket  53111
+
+Wed Oct 12 13:57:10 2016
+
+
+ Elaboration Time: 0.046875 sec
+
+ Current Memory Usage: 361.193 Meg
+
+ Total Signals          : 444
+ Total Nets             : 356
+ Total Signal Drivers   : 135
+ Total Blocks           : 197
+ Total Primitive Blocks : 98
+ Total Processes        : 135
+ Total Traceable Variables  : 109
+ Total Scalar Nets and Variables : 935
+
+ Total Simulation Time: 0.046875 sec
+
+ Current Memory Usage: 361.193 Meg
+
+Wed Oct 12 13:57:17 2016
+

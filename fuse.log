@@ -1,0 +1,29 @@
+Running: C:\Xilinx\14.2\ISE_DS\ISE\bin\nt64\unwrapped\fuse.exe -intstyle ise -incremental -o D:/Xilinx workspace/MIPS_Github/test_branch_isim_beh.exe -prj D:/Xilinx workspace/MIPS_Github/test_branch_beh.prj work.test_branch 
+ISim P.28xd (signature 0xa0883be4)
+Number of CPUs detected in this system: 4
+Turning on mult-threading, number of parallel sub-compilation jobs: 8 
+Determining compilation order of HDL files
+Parsing VHDL file "D:/Xilinx workspace/MIPS_Github/Mux1b.vhd" into library work
+Parsing VHDL file "D:/Xilinx workspace/MIPS_Github/MUX32b.vhd" into library work
+Parsing VHDL file "D:/Xilinx workspace/MIPS_Github/FULL_ADDER.vhd" into library work
+Parsing VHDL file "D:/Xilinx workspace/MIPS_Github/ADD_SUB.vhd" into library work
+WARNING:HDLCompiler:946 - "D:/Xilinx workspace/MIPS_Github/ADD_SUB.vhd" Line 41: Actual for formal port y is neither a static name nor a globally static expression
+Parsing VHDL file "D:/Xilinx workspace/MIPS_Github/BranchDecider.vhd" into library work
+Parsing VHDL file "D:/Xilinx workspace/MIPS_Github/test_branch.vhd" into library work
+Starting static elaboration
+Completed static elaboration
+Compiling package standard
+Compiling package std_logic_1164
+Compiling package numeric_std
+Compiling architecture behavioral of entity Mux1b [mux1b_default]
+Compiling architecture behavioral of entity MUX32b [mux32b_default]
+Compiling architecture arch of entity Full_adder [full_adder_default]
+Compiling architecture arch of entity ADD_SUB [add_sub_default]
+Compiling architecture behavioral of entity BranchDecider [branchdecider_default]
+Compiling architecture behavior of entity test_branch
+Time Resolution for simulation is 1ps.
+Waiting for 1 sub-compilation(s) to finish...
+Compiled 14 VHDL Units
+Built simulation executable D:/Xilinx workspace/MIPS_Github/test_branch_isim_beh.exe
+Fuse Memory Usage: 34108 KB
+Fuse CPU Usage: 577 ms

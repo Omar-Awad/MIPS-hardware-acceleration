@@ -7,19 +7,21 @@
    <ItemView engineview="SynthesisOnly" guiview="Source" compilemode="AutoCompile" >
       <ClosedNodes>
          <ClosedNodesVersion>2</ClosedNodesVersion>
+         <ClosedNode>/ALU - Behavioral D:|Xilinx workspace|MIPS_Github|ALU.vhd</ClosedNode>
          <ClosedNode>/ALU - Behavioral |home|hossam|Downloads|MIPS|ALU.vhd/AddSub - ADD_SUB - arch</ClosedNode>
          <ClosedNode>/ALU - Behavioral |home|hossam|Downloads|MIPS|ALU.vhd/Output_select - MUX32b - Behavioral</ClosedNode>
          <ClosedNode>/ALU - Behavioral |home|hossam|Downloads|MIPS|ALU.vhd/input_MUX - MUX32b - Behavioral</ClosedNode>
          <ClosedNode>/ALU - Behavioral |home|hossam|Projects|Vhdl|MIPS|ALU.vhd/input_MUX - MUX32b - Behavioral</ClosedNode>
+         <ClosedNode>/BranchDecider - Behavioral D:|Xilinx workspace|MIPS_Github|BranchDecider.vhd</ClosedNode>
       </ClosedNodes>
       <SelectedItems>
-         <SelectedItem>BranchDecider - Behavioral (/home/hossam/Projects/Vhdl/MIPS/BranchDecider.vhd)</SelectedItem>
+         <SelectedItem>BranchDecider - Behavioral (D:/Xilinx workspace/MIPS_Github/BranchDecider.vhd)</SelectedItem>
       </SelectedItems>
-      <ScrollbarPosition orientation="vertical" >2</ScrollbarPosition>
+      <ScrollbarPosition orientation="vertical" >0</ScrollbarPosition>
       <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
-      <ViewHeaderState orientation="horizontal" >000000ff00000000000000010000000100000000000000000000000000000000020200000001000000010000006400000185000000020000000000000000000000000200000064ffffffff000000810000000300000002000001850000000100000003000000000000000100000003</ViewHeaderState>
+      <ViewHeaderState orientation="horizontal" >000000ff00000000000000010000000100000000000000000000000000000000020200000001000000010000006400000151000000020000000000000000000000000200000064ffffffff000000810000000300000002000001510000000100000003000000000000000100000003</ViewHeaderState>
       <UserChangedColumnWidths orientation="horizontal" >true</UserChangedColumnWidths>
-      <CurrentItem>BranchDecider - Behavioral (/home/hossam/Projects/Vhdl/MIPS/BranchDecider.vhd)</CurrentItem>
+      <CurrentItem>BranchDecider - Behavioral (D:/Xilinx workspace/MIPS_Github/BranchDecider.vhd)</CurrentItem>
    </ItemView>
    <ItemView engineview="SynthesisOnly" sourcetype="DESUT_VHDL_ARCHITECTURE" guiview="Process" >
       <ClosedNodes>
@@ -30,13 +32,13 @@
          <ClosedNode>User Constraints</ClosedNode>
       </ClosedNodes>
       <SelectedItems>
-         <SelectedItem></SelectedItem>
+         <SelectedItem>Check Syntax</SelectedItem>
       </SelectedItems>
       <ScrollbarPosition orientation="vertical" >0</ScrollbarPosition>
       <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
-      <ViewHeaderState orientation="horizontal" >000000ff00000000000000010000000100000000000000000000000000000000000000000000000169000000010000000100000000000000000000000064ffffffff000000810000000000000001000001690000000100000000</ViewHeaderState>
+      <ViewHeaderState orientation="horizontal" >000000ff000000000000000100000001000000000000000000000000000000000000000000000000ff000000010000000100000000000000000000000064ffffffff000000810000000000000001000000ff0000000100000000</ViewHeaderState>
       <UserChangedColumnWidths orientation="horizontal" >false</UserChangedColumnWidths>
-      <CurrentItem></CurrentItem>
+      <CurrentItem>Check Syntax</CurrentItem>
    </ItemView>
    <ItemView guiview="File" >
       <ClosedNodes>
@@ -57,23 +59,23 @@
       <SelectedItems/>
       <ScrollbarPosition orientation="vertical" >0</ScrollbarPosition>
       <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
-      <ViewHeaderState orientation="horizontal" >000000ff00000000000000010000000000000000010000000000000000000000000000000000000117000000010001000100000000000000000000000064ffffffff000000810000000000000001000001170000000100000000</ViewHeaderState>
+      <ViewHeaderState orientation="horizontal" >000000ff00000000000000010000000000000000010000000000000000000000000000000000000064000000010001000100000000000000000000000064ffffffff000000810000000000000001000000640000000100000000</ViewHeaderState>
       <UserChangedColumnWidths orientation="horizontal" >false</UserChangedColumnWidths>
       <CurrentItem>work</CurrentItem>
    </ItemView>
    <ItemView engineview="SynthesisOnly" sourcetype="" guiview="Process" >
       <ClosedNodes>
          <ClosedNodesVersion>1</ClosedNodesVersion>
-         <ClosedNode>Design Utilities</ClosedNode>
+         <ClosedNode>Design Utilities/Compile HDL Simulation Libraries</ClosedNode>
       </ClosedNodes>
       <SelectedItems>
-         <SelectedItem></SelectedItem>
+         <SelectedItem>Design Utilities</SelectedItem>
       </SelectedItems>
       <ScrollbarPosition orientation="vertical" >0</ScrollbarPosition>
       <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
-      <ViewHeaderState orientation="horizontal" >000000ff000000000000000100000001000000000000000000000000000000000000000000000000f4000000010000000100000000000000000000000064ffffffff000000810000000000000001000000f40000000100000000</ViewHeaderState>
+      <ViewHeaderState orientation="horizontal" >000000ff00000000000000010000000100000000000000000000000000000000000000000000000110000000010000000100000000000000000000000064ffffffff000000810000000000000001000001100000000100000000</ViewHeaderState>
       <UserChangedColumnWidths orientation="horizontal" >false</UserChangedColumnWidths>
-      <CurrentItem></CurrentItem>
+      <CurrentItem>Design Utilities</CurrentItem>
    </ItemView>
    <ItemView engineview="SynthesisOnly" sourcetype="DESUT_VERILOG" guiview="Process" >
       <ClosedNodes>
@@ -87,5 +89,48 @@
       <CurrentItem/>
    </ItemView>
    <SourceProcessView>000000ff0000000000000002000001350000011b01000000040100000002</SourceProcessView>
-   <CurrentView>Implementation</CurrentView>
+   <CurrentView>Behavioral Simulation</CurrentView>
+   <ItemView engineview="BehavioralSim" guiview="Source" compilemode="AutoCompile" >
+      <ClosedNodes>
+         <ClosedNodesVersion>2</ClosedNodesVersion>
+         <ClosedNode>/ALU - Behavioral D:|Xilinx workspace|MIPS_Github|ALU.vhd</ClosedNode>
+         <ClosedNode>/BranchDecider - Behavioral D:|Xilinx workspace|MIPS_Github|BranchDecider.vhd</ClosedNode>
+         <ClosedNode>/test_branch - behavior D:|Xilinx workspace|MIPS_Github|test_branch.vhd/uut - BranchDecider - Behavioral/adderModule - ADD_SUB - arch</ClosedNode>
+      </ClosedNodes>
+      <SelectedItems>
+         <SelectedItem>test_branch - behavior (D:/Xilinx workspace/MIPS_Github/test_branch.vhd)</SelectedItem>
+      </SelectedItems>
+      <ScrollbarPosition orientation="vertical" >0</ScrollbarPosition>
+      <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
+      <ViewHeaderState orientation="horizontal" >000000ff00000000000000010000000100000000000000000000000000000000020200000001000000010000006400000175000000020000000000000000000000000200000064ffffffff000000810000000300000002000001750000000100000003000000000000000100000003</ViewHeaderState>
+      <UserChangedColumnWidths orientation="horizontal" >true</UserChangedColumnWidths>
+      <CurrentItem>test_branch - behavior (D:/Xilinx workspace/MIPS_Github/test_branch.vhd)</CurrentItem>
+   </ItemView>
+   <ItemView engineview="BehavioralSim" sourcetype="" guiview="Process" >
+      <ClosedNodes>
+         <ClosedNodesVersion>1</ClosedNodesVersion>
+         <ClosedNode>Design Utilities</ClosedNode>
+      </ClosedNodes>
+      <SelectedItems>
+         <SelectedItem></SelectedItem>
+      </SelectedItems>
+      <ScrollbarPosition orientation="vertical" >0</ScrollbarPosition>
+      <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
+      <ViewHeaderState orientation="horizontal" >000000ff00000000000000010000000100000000000000000000000000000000000000000000000110000000010000000100000000000000000000000064ffffffff000000810000000000000001000001100000000100000000</ViewHeaderState>
+      <UserChangedColumnWidths orientation="horizontal" >false</UserChangedColumnWidths>
+      <CurrentItem></CurrentItem>
+   </ItemView>
+   <ItemView engineview="BehavioralSim" sourcetype="DESUT_VHDL_ARCHITECTURE" guiview="Process" >
+      <ClosedNodes>
+         <ClosedNodesVersion>1</ClosedNodesVersion>
+      </ClosedNodes>
+      <SelectedItems>
+         <SelectedItem>Simulate Behavioral Model</SelectedItem>
+      </SelectedItems>
+      <ScrollbarPosition orientation="vertical" >0</ScrollbarPosition>
+      <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
+      <ViewHeaderState orientation="horizontal" >000000ff00000000000000010000000100000000000000000000000000000000000000000000000110000000010000000100000000000000000000000064ffffffff000000810000000000000001000001100000000100000000</ViewHeaderState>
+      <UserChangedColumnWidths orientation="horizontal" >false</UserChangedColumnWidths>
+      <CurrentItem>Simulate Behavioral Model</CurrentItem>
+   </ItemView>
 </Project>

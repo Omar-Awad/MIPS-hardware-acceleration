@@ -1,0 +1,5 @@
+work	"ADD_SUB.vhd"
+work	"BranchDecider.vhd"
+work	"FULL_ADDER.vhd"
+work	"MUX32b.vhd"
+work	"Mux1b.vhd"

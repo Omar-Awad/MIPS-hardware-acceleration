@@ -1,11 +1,11 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <report-views version="2.0" >
  <header>
-  <DateModified>2016-10-12T12:57:49</DateModified>
+  <DateModified>2016-10-12T13:38:09</DateModified>
   <ModuleName>BranchDecider</ModuleName>
   <SummaryTimeStamp>Unknown</SummaryTimeStamp>
   <SavedFilePath>D:/Xilinx workspace/MIPS_Github/iseconfig/BranchDecider.xreport</SavedFilePath>
-  <ImplementationReportsDirectory>D:/Xilinx workspace/MIPS_Github</ImplementationReportsDirectory>
+  <ImplementationReportsDirectory>D:/Xilinx workspace/MIPS_Github\</ImplementationReportsDirectory>
   <DateInitialized>2016-10-12T12:57:49</DateInitialized>
   <EnableMessageFiltering>false</EnableMessageFiltering>
  </header>

@@ -1,0 +1,6 @@
+vhdl isim_temp "Mux1b.vhd"
+vhdl isim_temp "MUX32b.vhd"
+vhdl isim_temp "FULL_ADDER.vhd"
+vhdl isim_temp "ADD_SUB.vhd"
+vhdl isim_temp "BranchDecider.vhd"
+vhdl isim_temp "test_branch.vhd"
