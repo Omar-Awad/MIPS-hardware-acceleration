@@ -1,0 +1,6 @@
+xst -intstyle ise -ifn "D:/Xilinx workspace/MIPS_Github/Decode.xst" -ofn "D:/Xilinx workspace/MIPS_Github/Decode.syr" 
+xst -intstyle ise -ifn "D:/Xilinx workspace/MIPS_Github/Decode.xst" -ofn "D:/Xilinx workspace/MIPS_Github/Decode.syr" 
+xst -intstyle ise -ifn "D:/Xilinx workspace/MIPS_Github/Decode.xst" -ofn "D:/Xilinx workspace/MIPS_Github/Decode.syr" 
+xst -intstyle ise -ifn "D:/Xilinx workspace/MIPS_Github/Decode.xst" -ofn "D:/Xilinx workspace/MIPS_Github/Decode.syr" 
+xst -intstyle ise -ifn "D:/Xilinx workspace/MIPS_Github/Decode.xst" -ofn "D:/Xilinx workspace/MIPS_Github/Decode.syr" 
+xst -intstyle ise -ifn "D:/Xilinx workspace/MIPS_Github/Decode.xst" -ofn "D:/Xilinx workspace/MIPS_Github/Decode.syr" 

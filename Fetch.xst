@@ -1,0 +1,5 @@
+set -tmpdir "D:/Xilinx workspace/MIPS_Github/xst/projnav.tmp"
+set -xsthdpdir "D:/Xilinx workspace/MIPS_Github/xst"
+elaborate
+-ifn Fetch.prj
+-ifmt mixed

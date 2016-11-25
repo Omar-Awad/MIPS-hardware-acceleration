@@ -1,0 +1,2 @@
+vhdl work "Decode.vhd"
+vhdl work "Decode_test.vhd"

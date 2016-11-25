@@ -1,10 +1,20 @@
 AR full_adder arch "C:/My Stuff/Mips github/FULL_ADDER.vhd" sub00/vhpl05 1476298435
 EN mux1b NULL "C:/My Stuff/Mips github/Mux1b.vhd" sub00/vhpl00 1476298430
+AR decode arch "D:/Xilinx workspace/MIPS_Github/Decode.vhd" sub00/vhpl11 1480102947
+EN mem NULL "D:/Xilinx workspace/MIPS_Github/MEM.vhd" sub00/vhpl14 1479540711
+AR fetch arch "D:/Xilinx workspace/MIPS_Github/Fetch.vhd" sub00/vhpl13 1479540032
+EN id_ex NULL "D:/Xilinx workspace/MIPS_Github/ID_EX.vhd" sub00/vhpl18 1480104386
 AR mux1b behavioral "C:/My Stuff/Mips github/Mux1b.vhd" sub00/vhpl01 1476298431
 EN branchdecider NULL "C:/My Stuff/Mips github/BranchDecider.vhd" sub00/vhpl08 1476298438
+EN wb NULL "D:/Xilinx workspace/MIPS_Github/WB.vhd" sub00/vhpl16 1479540958
 AR mux32b behavioral "C:/My Stuff/Mips github/MUX32b.vhd" sub00/vhpl03 1476298433
 EN full_adder NULL "C:/My Stuff/Mips github/FULL_ADDER.vhd" sub00/vhpl04 1476298434
 AR branchdecider behavioral "C:/My Stuff/Mips github/BranchDecider.vhd" sub00/vhpl09 1476298439
+AR wb behavioral "D:/Xilinx workspace/MIPS_Github/WB.vhd" sub00/vhpl17 1479540959
 AR add_sub arch "C:/My Stuff/Mips github/ADD_SUB.vhd" sub00/vhpl07 1476298437
+AR mem arch "D:/Xilinx workspace/MIPS_Github/MEM.vhd" sub00/vhpl15 1479540712
+EN decode NULL "D:/Xilinx workspace/MIPS_Github/Decode.vhd" sub00/vhpl10 1480102946
+EN fetch NULL "D:/Xilinx workspace/MIPS_Github/Fetch.vhd" sub00/vhpl12 1479540031
 EN mux32b NULL "C:/My Stuff/Mips github/MUX32b.vhd" sub00/vhpl02 1476298432
 EN add_sub NULL "C:/My Stuff/Mips github/ADD_SUB.vhd" sub00/vhpl06 1476298436
+AR id_ex flow "D:/Xilinx workspace/MIPS_Github/ID_EX.vhd" sub00/vhpl19 1480104387

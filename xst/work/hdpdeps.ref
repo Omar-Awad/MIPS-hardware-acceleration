@@ -1,28 +1,56 @@
-V3 19
-FL "C:/My Stuff/Mips github/ADD_SUB.vhd" 2016/10/06.20:17:57 P.20131013
+V3 34
+FL "C:/My Stuff/Mips github/ADD_SUB.vhd" 2016/10/06.20:17:57 P.28xd
 EN work/ADD_SUB 1476298436 FL "C:/My Stuff/Mips github/ADD_SUB.vhd" \
       PB ieee/std_logic_1164 1381692176 PB ieee/NUMERIC_STD 1381692181
 AR work/ADD_SUB/arch 1476298437 \
       FL "C:/My Stuff/Mips github/ADD_SUB.vhd" EN work/ADD_SUB 1476298436 \
       CP MUX32b CP FULL_ADDER
-FL "C:/My Stuff/Mips github/BranchDecider.vhd" 2016/10/12.20:37:18 P.20131013
+FL "C:/My Stuff/Mips github/BranchDecider.vhd" 2016/10/12.20:37:18 P.28xd
 EN work/BranchDecider 1476298438 FL "C:/My Stuff/Mips github/BranchDecider.vhd" \
       PB ieee/std_logic_1164 1381692176
 AR work/BranchDecider/Behavioral 1476298439 \
       FL "C:/My Stuff/Mips github/BranchDecider.vhd" EN work/BranchDecider 1476298438 \
       CP ADD_SUB CP MUX32b
-FL "C:/My Stuff/Mips github/FULL_ADDER.vhd" 2016/10/12.20:37:18 P.20131013
+FL "C:/My Stuff/Mips github/FULL_ADDER.vhd" 2016/10/12.20:37:18 P.28xd
 EN work/Full_adder 1476298434 FL "C:/My Stuff/Mips github/FULL_ADDER.vhd" \
       PB ieee/std_logic_1164 1381692176 PB ieee/NUMERIC_STD 1381692181
 AR work/Full_adder/arch 1476298435 \
       FL "C:/My Stuff/Mips github/FULL_ADDER.vhd" EN work/Full_adder 1476298434
-FL "C:/My Stuff/Mips github/Mux1b.vhd" 2016/10/12.20:37:18 P.20131013
+FL "C:/My Stuff/Mips github/Mux1b.vhd" 2016/10/12.20:37:18 P.28xd
 EN work/Mux1b 1476298430 FL "C:/My Stuff/Mips github/Mux1b.vhd" \
       PB ieee/std_logic_1164 1381692176
 AR work/Mux1b/Behavioral 1476298431 \
       FL "C:/My Stuff/Mips github/Mux1b.vhd" EN work/Mux1b 1476298430
-FL "C:/My Stuff/Mips github/MUX32b.vhd" 2016/10/12.20:37:18 P.20131013
+FL "C:/My Stuff/Mips github/MUX32b.vhd" 2016/10/12.20:37:18 P.28xd
 EN work/MUX32b 1476298432 FL "C:/My Stuff/Mips github/MUX32b.vhd" \
       PB ieee/std_logic_1164 1381692176
 AR work/MUX32b/Behavioral 1476298433 \
       FL "C:/My Stuff/Mips github/MUX32b.vhd" EN work/MUX32b 1476298432 CP MUX1b
+FL "D:/Xilinx workspace/MIPS_Github/Decode.vhd" 2016/11/25.21:42:05 P.28xd
+EN work/Decode 1480102946 FL "D:/Xilinx workspace/MIPS_Github/Decode.vhd" \
+      PB ieee/std_logic_1164 1381692176 PB ieee/STD_LOGIC_UNSIGNED 1341906179 \
+      PB ieee/NUMERIC_STD 1381692181
+AR work/Decode/arch 1480102947 \
+      FL "D:/Xilinx workspace/MIPS_Github/Decode.vhd" EN work/Decode 1480102946
+FL "D:/Xilinx workspace/MIPS_Github/Fetch.vhd" 2016/11/19.09:20:29 P.28xd
+EN work/Fetch 1479540031 FL "D:/Xilinx workspace/MIPS_Github/Fetch.vhd" \
+      PB ieee/std_logic_1164 1381692176 PB ieee/std_logic_arith 1341906177 \
+      PB ieee/STD_LOGIC_UNSIGNED 1341906179
+AR work/Fetch/arch 1479540032 \
+      FL "D:/Xilinx workspace/MIPS_Github/Fetch.vhd" EN work/Fetch 1479540031
+FL "D:/Xilinx workspace/MIPS_Github/ID_EX.vhd" 2016/11/25.22:06:10 P.28xd
+EN work/ID_EX 1480104386 FL "D:/Xilinx workspace/MIPS_Github/ID_EX.vhd" \
+      PB ieee/std_logic_1164 1381692176
+AR work/ID_EX/flow 1480104387 \
+      FL "D:/Xilinx workspace/MIPS_Github/ID_EX.vhd" EN work/ID_EX 1480104386
+FL "D:/Xilinx workspace/MIPS_Github/MEM.vhd" 2016/11/19.09:31:48 P.28xd
+EN work/MEM 1479540711 FL "D:/Xilinx workspace/MIPS_Github/MEM.vhd" \
+      PB ieee/std_logic_1164 1381692176 PB ieee/std_logic_arith 1341906177 \
+      PB ieee/STD_LOGIC_UNSIGNED 1341906179
+AR work/MEM/arch 1479540712 \
+      FL "D:/Xilinx workspace/MIPS_Github/MEM.vhd" EN work/MEM 1479540711
+FL "D:/Xilinx workspace/MIPS_Github/WB.vhd" 2016/11/19.09:35:55 P.28xd
+EN work/WB 1479540958 FL "D:/Xilinx workspace/MIPS_Github/WB.vhd" \
+      PB ieee/std_logic_1164 1381692176
+AR work/WB/Behavioral 1479540959 \
+      FL "D:/Xilinx workspace/MIPS_Github/WB.vhd" EN work/WB 1479540958

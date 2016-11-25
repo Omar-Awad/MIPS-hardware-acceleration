@@ -1,6 +1,0 @@
-vhdl work "Mux1b.vhd"
-vhdl work "MUX32b.vhd"
-vhdl work "FULL_ADDER.vhd"
-vhdl work "ADD_SUB.vhd"
-vhdl work "BranchDecider.vhd"
-vhdl work "test_branch.vhd"
